@@ -33,3 +33,5 @@ We're in business! After this photo, I customized Navit to make the MPH value mu
 ![The Explorer](/assets/images/posts/explorer.jpeg)
 
 The Raspberry Pi has served as good replacement for the speedometer, and honestly was probably faster than replacing the speedometer cable that went bad in the first place. GPS is usually acquired within 15-30 seconds of starting (much faster than the <a href="https://www.amazon.com/LeaningTech-Universal-Speedometer-Overspeed-Windshield/dp/B01LJCA1B0/ref=as_li_ss_tl?dchild=1&keywords=electronic+speedometer&qid=1585438935&sr=8-24&linkCode=ll1&tag=gleslie03-20&linkId=8082d20ee3544eb47ef53da4f035cb35&language=en_US" target="_blank">cheap electronic speedometers</a> I tested first).
+
+Is it sexy? Not really. I don't care - I got it working in an afternoon.
