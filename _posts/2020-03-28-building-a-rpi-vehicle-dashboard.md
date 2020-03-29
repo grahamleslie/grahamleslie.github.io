@@ -22,9 +22,9 @@ I set up Raspbian using NOOBS, installed [Navit](https://www.navit-project.org/)
 
 ![Raspberry Pi running Navit](/assets/images/posts/pi-nav.jpg)
 
-At this point, I set up automatic login and configured Navit to launch at boot.
+Next, I set up automatic login and configured Navit to launch at boot.
 
-I used command strips to adhere the box to my dashboard (while being easy to remove), ran the magnetic GPS receiver to the underside of the roof, and ran power from a cigarette-lighter adapter.
+I used command strips to adhere the box to my dashboard (while being easy to remove), ran the magnetic GPS receiver to the underside of the roof, and ran power from a cigarette-lighter adapter. I conveniently already had a power source off the ignition switch, so the Raspberry Pi only gets power when the car is turned on. If you wire yours to an always-on power source, I suggest some kind of inline switch to make sure you don't case a parasitic leak.
 
 ![Raspberry Pi in Use](/assets/images/posts/pi-nav-installed.jpg)
 
