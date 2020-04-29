@@ -38,7 +38,7 @@ layout: home
       >.
     </p>
     <p class="lead">
-      You can find me most often on
+      You can find me most active on
       <a
         href="https://twitter.com/grahamleslie"
         target="_blank"
@@ -48,10 +48,10 @@ layout: home
       >
       and
       <a
-        href="https://www.linkedin.com/in/grahamaleslie"
+        href="https://github.com/grahamleslie"
         target="_blank"
         rel="noopener noreferrer"
-        ><i class="fab fa-linkedin"></i> LinkedIn</a
+        ><i class="fab fa-github"></i> GitHub</a
       >.
     </p>
   </div>
