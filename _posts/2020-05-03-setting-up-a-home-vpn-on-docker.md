@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Setting Up a Home VPN on Docker"
+title: "Setting Up a Home VPN with Docker"
 date: 2020-05-03 09:12:15 -0500
 categories: docker home vpn homelab
 duration: "5 minutes"
