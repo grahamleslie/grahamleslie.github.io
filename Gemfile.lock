@@ -245,6 +245,7 @@ DEPENDENCIES
   github-pages
   jekyll (= 3.8.5)
   jekyll-feed (~> 0.12)
+  jekyll-sitemap (~> 1.4)
 
 BUNDLED WITH
    2.1.4
