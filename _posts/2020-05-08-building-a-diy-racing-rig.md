@@ -3,7 +3,7 @@ layout: post
 title: "Building a DIY Racing Rig"
 date: 2020-05-08 11:10:09 -0500
 categories:
-duration: "one lap of Monaco, maybe two if you like pictures"
+duration: "one lap of Monaco; maybe two if you like pictures"
 ---
 
 I enjoy racing games. I wanted to build the most fun racing rig I could for the least amount of money.
@@ -21,7 +21,7 @@ BOM (~\$300):
 
 - [Logitech G29 Racing Wheel for PS4/PC (~\$220)](https://amzn.to/2WDU7fp)\*
 - [USB 3.0 Extension (~\$8)](https://amzn.to/35Hi5dK)
-- A Chair
+- A Comfortable Chair
 - 2"x12"x8' (1) - base, and seat base
 - 2"x4"x8" (~4) - seat angle, pedal angle, wheel mounting board beam
 - 1" common board - pedal base, wheel mounting board
@@ -29,7 +29,7 @@ BOM (~\$300):
 - [Wood Glue (~\$8)](https://amzn.to/2yxjurj)
 - [Cable Management Velcro (~\$16)](https://amzn.to/2SPDOuO)
 
-\* Price fluctuates pretty wildly, I picked mine up for the listed price.
+\* Price fluctuates pretty wildly; I picked mine up for the listed price.
 
 ### 0. The Base
 
