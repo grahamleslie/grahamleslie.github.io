@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building a DIY Racing Rig"
-date: 2020-05-08 11:10:09 -0500
+date: 2020-05-09 12:59:09 -0500
 categories: diy racing woodworking
 duration: "one lap of Monaco; maybe two if you like pictures"
 ---
