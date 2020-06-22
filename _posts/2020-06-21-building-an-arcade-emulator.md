@@ -6,7 +6,7 @@ categories: arcade emulator retropi
 duration: "4 minutes"
 ---
 
-A coworker at a previous job built an arcade emulator. He used a CNC machine to cut the cabinet, then dropped in an old monitor for display, a Raspberry Pi for emulation, and a set of joysticks and buttons he'd found on EBay. It was a pretty neat setup that inspired me to put mine together.
+A coworker at a previous job built an arcade emulator. He used a CNC machine to cut the cabinet, then dropped in an old monitor for display, a Raspberry Pi for emulation, and a set of joysticks and buttons he'd found on Amazon. It was a pretty neat setup that inspired me to put mine together.
 
 Instead of the old-school arcade cabinet feel, I decided to build something a little more modern, so I threw together a compact cabinet with scrap wood, I setup an Intel NUC with emulators for the consoles I grew up with, and plugged in a pair of SNES-style controllers. It's a fun setup for playing old games from SEGA Genesis, N64, GameCube, etc.
 
@@ -27,6 +27,8 @@ BOM (~\$50 if you have the computer/Pi and building materials lying around):
 - <a href="https://amzn.to/3fLkjwt" target="_blank">LED Strip (~\$16)</a> (obviously really important).
 - Slim PC speakers to hide in the cabinet for audio (I used some 2000s passive speakers we probably all have in a box somewhere).
 - An old monitor. It would have been super cool to use a CRT monitor, but I had a LCD monitor lying around.
+
+> <small>FYI: If you buy something through an Amazon link, I may earn a commission.</small>
 
 First, build the cabinet around your monitor. I built a small shelf for it to sit on, and secured it with another shelf that will hold the NUC. I also used some caulking around the monitor to make sure no light shines through. I also left a gap at the bottom for storing the controllers.
 

@@ -17,6 +17,8 @@ BOM (~\$100):
 - <a href="https://www.amazon.com/gp/product/B076M399XX/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B076M399XX&linkCode=as2&tag=gleslie03-20&linkId=a0bc8d146110d760528d3c8bcc1cb310" target="_blank">Raspberry Pi 3.5" LCD Display (~\$30)</a>
 - <a href="https://www.amazon.com/gp/product/B078Y52FGQ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B078Y52FGQ&linkCode=as2&tag=gleslie03-20&linkId=72bfaf0f8b4ef6e9115a8395475b5c99" target="_blank">Raspberry Pi-compatible GPS Receiver (~\$20)</a>
 
+> <small>FYI: If you buy something through an Amazon link, I may earn a commission.</small>
+
 I discarded the top of the Raspberry Pi case, and I used a dremel tool to cut out room for the HDMI bridge that connects the LCD display to the Pi.
 
 I set up Raspbian using NOOBS, installed [Navit](https://www.navit-project.org/), and hooked up my hardware. At this point, I had a functioning speedometer and GPS display.

@@ -20,6 +20,8 @@ While in an airport some time ago, I realized it would be nice to have my own VP
 
 I'll describe how I set that up.
 
+> <small>FYI: If you buy something through an Amazon link, I may earn a commission.</small>
+
 PS - I had cooling issues from the start with this cabinet when I realized I was comically duped by the fake slats on the doors 🤦. I resolved this entirely by drilling an air inlet and outlet in the back and installing [USB fans](https://amzn.to/2SilOZy) to create an air flow in, through the server, and out again. The router and switch are on a [cheap battery backup](https://amzn.to/2W9t1wl) so they stay on for a short period of time if the power blips or goes out.
 
 ### 0. Prerequisite Docker Host

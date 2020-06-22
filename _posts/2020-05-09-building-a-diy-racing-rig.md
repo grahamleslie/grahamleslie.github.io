@@ -40,6 +40,8 @@ BOM (~\$300):
 
 \* Price fluctuates pretty wildly; I picked mine up for the listed price.
 
+> <small>FYI: If you buy something through an Amazon link, I may earn a commission.</small>
+
 ### 0. The Base
 
 ![The racing rig base.](/assets/images/posts/racing-rig-base.jpeg)
