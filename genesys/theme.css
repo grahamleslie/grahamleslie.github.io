@@ -27,6 +27,10 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  background-image: url(/assets/images/genesys/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -99,4 +103,12 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, 0.5);
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p.lead {
+  font-weight: 500;
 }
