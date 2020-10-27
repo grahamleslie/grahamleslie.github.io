@@ -25,7 +25,7 @@ layout: home
       >
       &
       <a
-        href="https://report.quilldynamics.com"
+        href="https://quill.news"
         target="_blank"
         rel="noopener noreferrer"
         >The Quill Report</a
