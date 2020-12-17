@@ -29,13 +29,13 @@ layout: home
         target="_blank"
         rel="noopener noreferrer"
         >The Quill Report</a
-      >, and the author of a science-fiction novella, 
+      >, and the author of a two science-fiction novellas: 
       <a
         href="https://www.amazon.com/Harbinger-Graham-Leslie-ebook/dp/B07MJJVQY1/ref=sr_1_7?ie=UTF8&qid=1547266859&sr=8-7&keywords=graham+leslie"
         target="_blank"
         rel="noopener noreferrer"
         ><i>The Harbinger</i></a
-      >.  I'm currently working on my next novella, <a href="/genesys"><i>Genesys</i></a>.
+      > and <a href="/genesys"><i>Genesys</i></a>.
     </p>
     <p class="lead">
       You can find me most active on
