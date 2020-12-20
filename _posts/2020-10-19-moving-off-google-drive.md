@@ -3,7 +3,7 @@ layout: post
 title: "Moving to NextCloud from Google Drive"
 date: 2020-10-19 019:40:29 -0500
 categories: docker home homelab nextcloud google drive privacy
-duration: "5 minutes"
+duration: "4 minutes"
 ---
 
 I've toyed around with moving away from Google Drive for a few years now, honestly from less of a die-hard-privacy-proponent-point-of-view but more because I thought it would be interesting to try to replace it with something self-managed.
