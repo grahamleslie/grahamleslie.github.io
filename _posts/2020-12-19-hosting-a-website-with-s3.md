@@ -31,6 +31,10 @@ Using **ACL control**, grant _Everyone (public access)_ _Objects: List_ and _Buc
 
 In **Properties**, enable _Static web site Hosting_. Set _Index_ and _Error Document_ to `index.html`.
 
+### Upload Your Website
+
+Now would be a good time to set up continuous delivery of your distributable website to the S3 bucket you just created. You can also just drag and drop the files into the S3 bucket on AWS if you need to. I use [Schrodinger](http://github.com/grahamleslie/schrodinger) for continuous integration.
+
 ### Certificate Manager
 
 Request a certificate for your domain name(s). Make sure you include additional names for any subdomains you need.
