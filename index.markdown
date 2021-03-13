@@ -12,7 +12,7 @@ layout: home
         src="/assets/images/me.jpg"
         alt="This is me."
       />
-      I like building things and driving over things. I am a Staff Software
+      I like building things and driving over things. I am a Software
       Engineer at
       <a href="https://procore.com" target="_blank" rel="noopener noreferrer"
         >Procore</a
