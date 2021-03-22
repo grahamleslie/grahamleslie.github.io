@@ -5,53 +5,24 @@
 layout: home
 ---
 
-<div style="min-height: 164px">
-    <p class="lead">
-      <img
-        class="img img-avatar"
-        src="/assets/images/me.jpg"
-        alt="This is me."
-      />
-      I like building things and driving over things. I am a Staff Software
-      Engineer at
-      <a href="https://procore.com" target="_blank" rel="noopener noreferrer"
-        >Procore</a
-      >, the owner of
-      <a
-        href="https://quilldynamics.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Quill Dynamics</a
+{% assign posts = site.posts %}
+
+<ul class="post-list">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {%- for post in posts -%}
+    <li>
+      <span class="post-meta"
+        >{{ post.date | date: date_format }} | about {{ post.duration}}</span
       >
-      &
-      <a
-        href="https://quill.news"
-        target="_blank"
-        rel="noopener noreferrer"
-        >The Quill Report</a
-      >, and the author of a two science-fiction novellas: 
-      <a
-        href="https://www.amazon.com/Harbinger-Graham-Leslie-ebook/dp/B07MJJVQY1/ref=sr_1_7?ie=UTF8&qid=1547266859&sr=8-7&keywords=graham+leslie"
-        target="_blank"
-        rel="noopener noreferrer"
-        ><i>The Harbinger</i></a
-      > and <a href="/genesys"><i>Genesys</i></a>.
-    </p>
-    <p class="lead">
-      You can find me most active on
-      <a
-        href="https://twitter.com/grahamleslie"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="fab fa-twitter"></i> Twitter</a
-      >
-      and
-      <a
-        href="https://github.com/grahamleslie"
-        target="_blank"
-        rel="noopener noreferrer"
-        ><i class="fab fa-github"></i> GitHub</a
-      >.
-    </p>
-  </div>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      <!-- prettier-ignore -->
+      <div>
+        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+      </div>
+    </li>
+  {%- endfor -%}
+</ul>
