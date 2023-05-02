@@ -6,13 +6,6 @@
       <div class="footer-col">
         <p>
           <a
-            href="https://www.amazon.com/Graham-Leslie/e/B07MQFQWDQ"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-amazon"></i> Kindle</a
-          >
-          <br />
-          <a
             href="https://www.linkedin.com/in/grahamaleslie"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,17 +20,17 @@
           >
           <br />
           <a
-            href="https://grahamsrecipes.tumblr.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            ><i class="fab fa-tumblr"></i> Recipes</a
-          >
-          <br />
-          <a
             href="https://www.youtube.com/channel/UCKoPxUfqK_wZAXALlvbdNCA"
             target="_blank"
             rel="noopener noreferrer"
             ><i class="fab fa-youtube"></i> YouTube</a
+          >
+          <br />
+          <a
+            href="https://www.amazon.com/Graham-Leslie/e/B07MQFQWDQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-amazon"></i> Kindle</a
           >
         </p>
         {%- if site.author %}
@@ -55,8 +48,7 @@
         {%- endif %}
       </div>
       <div class="footer-col">
-        <p>© 2020 Graham Leslie</p>
-        <p><small>Austin, TX.</small></p>
+        <p>©{{ 'now' | date: "%Y" }} Graham Leslie</p>
       </div>
     </div>
   </div>

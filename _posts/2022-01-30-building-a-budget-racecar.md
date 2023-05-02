@@ -6,7 +6,13 @@ categories: race car build diy auto track miata nc
 duration: "13 minutes"
 ---
 
-In July of '21, I decided I would get into amateur racing.
+In July of '21, I decided I would get into racing.
+
+### The Video
+
+I've since posted a YouTube video about this build. If you'd rather watch than read, check it out:
+
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/AJByPyIkx5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 I put this post together to prove that it's possible to build a track-ready race car for a reasonable budget.
 
