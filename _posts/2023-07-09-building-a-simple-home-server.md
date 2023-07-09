@@ -52,6 +52,6 @@ Last, I created a `Caddyfile` to configure `caddy`. It just has an entry for eac
 
 ## Docker
 
-I then cloned that repo to the server and created some `.env` files to include the secrets for each container. I can just run `docker-compose up -d` and everything starts up.
+I then cloned that repo to the server, created some `.env` files to include the secrets for each container, and ran the adblock list generator to create the file that will mount to `dnsmasq`. I can just run `docker-compose up -d` and everything starts up.
 
 The last step was to set a static IP for the home server and forward the necessary ports for external access. A simple home server with a configuration in GitHub--easy to rebuild if something goes wrong.
