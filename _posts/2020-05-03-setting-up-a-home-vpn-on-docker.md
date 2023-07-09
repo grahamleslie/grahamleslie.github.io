@@ -6,6 +6,8 @@ categories: docker home vpn homelab
 duration: "5 minutes"
 ---
 
+This is old and I wouldn't do it this way again. Try my [new post on building a home server](https://gleslie.com/home/server/docker/ubuntu/2023/07/09/building-a-simple-home-server.html).
+
 I have a home server. I run a handful of applications as Docker containers on this server, like Plex, Folding@home, and (shameless plug) [Shrodinger](https://github.com/grahamleslie/schrodinger).
 
 ![My home server cabinet](/assets/images/posts/cabinet.jpg)
