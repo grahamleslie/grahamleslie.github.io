@@ -6,7 +6,7 @@ categories: home server docker homekit homebridge vesync nest hue
 duration: "5 minutes"
 ---
 
-Over the last few months, I've gotten the sense that my Amazon Echo Dots throughout the house were degrading in recognition quality. Maybe Amazon is moving to on-device or lower-cost language processing models. Either way, I was tired of asking Alexa to "turn on the backyard lights" for the dog to go outside and instead durning on the bedroom lights, blinding me in the middle of the night. I decided to give HomeKit a try.
+Over the last few months, I've gotten the sense that my Amazon Echo Dots throughout the house were degrading in recognition quality. Maybe Amazon is moving to on-device or lower-cost language processing models. I was tired of asking Alexa to "turn on the backyard lights" for the dog to go outside and instead durning on all the interior lights, blinding me in the middle of the night. I decided to give HomeKit a try.
 
 Problem is, many of my devices are not HomeKit-compatible. I have VeSync smart plugs for lots of devices, a Nest home thermostat, Ring cameras, and Philips Hue lights. I filled up my shopping cart with HomeKit-compatible devices and was about to check out when it occured to me--I should check if there is a hacky, pain in the butt way to get these devices into HomeKit. Enter [Homebridge](https://homebridge.io/).
 
