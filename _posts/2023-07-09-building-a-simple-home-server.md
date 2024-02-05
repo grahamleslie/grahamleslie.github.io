@@ -28,7 +28,9 @@ The home server runs Ubuntu Server. On it, I installed Docker. Then, I created a
 - `jpillora/dnsmasq`: a DNS server for my local network ()
 - `hwdsl2/ipsec-vpn-server`: a VPN server for remote access
 - `ghcr.io/akarys42/cloudflare-ddns-docker`: to update my Cloudflare DNS records when my IP changes
-- `plex`: my home movie server
+- `homebridge`: a bridge for my non-HomeKit devices to HomeKit
+- [`backup-to-s3`](https://github.com/grahamleslie/docker-backup-to-s3): backs up nextcloud to S3 on a regular basis
+- `grahamleslie/docker-host-sensor-page`: monitors the heat of the home server
 
 I also created a few networks to isolate containers. In particular, I networked the DNS container and VPN container together with static IPs to solve a big gotcha: the VPN container needs an environment variable `VPN_DNS_SRV1` set with the static _internal_ IP of the DNS container to resolve DNS requests in the home network.
 
@@ -48,7 +50,7 @@ addn-hosts=/etc/ads.hosts # Include the adblock list.
 
 To host a DNS server in Ubuntu Server, you need to modify `/etc/systemd/resolved.conf` to disable the default listener on port 53.
 
-Last, I created a `Caddyfile` to configure `caddy`. It just has an entry for each domain (example: `plex.home`) and routes it to the correct port exposed by the container.
+Last, I created a `Caddyfile` to configure `caddy`. It just has an entry for each domain (example: `nextcloud.home`) and routes it to the correct port exposed by the container.
 
 ## Docker
 
