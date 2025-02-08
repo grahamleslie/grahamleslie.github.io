@@ -31,3 +31,4 @@
 | 1:51.81 | BMW M235i | [Laguna Seca](https://www.youtube.com/watch?v=2CeZx0QDLy8) |
 | 1:31.07 | BMW M235i | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k) |
 | 2:24.45 | BMW M235i | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg) |
+| 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
