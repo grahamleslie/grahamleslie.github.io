@@ -6,7 +6,7 @@ categories: home server docker ubuntu
 duration: "5 minutes"
 ---
 
-Not long ago, my [home server I set up in 2020](https://gleslie.com/docker/home/vpn/homelab/2020/05/03/setting-up-a-home-vpn-on-docker.html) died. It was time to rebuild it, but (much) better. Here's what I did:
+Not long ago, my home server I set up in 2020 died. It was time to rebuild it, but (much) better. Here's what I did:
 
 ![The rackmount home server](/assets/images/posts/rack-mount-home-server.jpg)
 
