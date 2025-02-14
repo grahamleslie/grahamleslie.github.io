@@ -30,6 +30,8 @@ $on-medium: $on-palm !default;
 $on-large: $on-laptop !default;
 
 $gradient: linear-gradient(90deg, #3a6ea5, #a85d9b, #f4c542, #e57a44);
+$background-color: #f8f8f8;
+// $text-color: #2c3e50;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
