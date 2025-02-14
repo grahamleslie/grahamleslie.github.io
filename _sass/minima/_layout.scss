@@ -375,6 +375,34 @@ div.home > img.img-avatar {
   margin-right: 1em;
 }
 
+div.home > div.text > h1 {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700; /* Strong, bold, but refined */
+  font-size: clamp(2rem, 6vw, 2.75rem); /* Responsive scaling */
+  letter-spacing: -0.5px; /* Slight tightening for a premium feel */
+  text-transform: uppercase; /* Optional: makes it more striking */
+  line-height: 1.1; /* Keeps it compact but readable */
+}
+
+div.home > div.text > p > a {
+  white-space: nowrap;
+  padding-right: 0.25em;
+}
+
+div.home > div.text > p > a > i {
+  min-width: 1em;
+}
+
+div.home > div.text > h1::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: $gradient;
+  margin-top: 8px;
+}
+
+
 @media screen and (max-width: $on-palm) {
   div.home {
     flex-direction: column;
@@ -385,18 +413,7 @@ div.home > img.img-avatar {
     margin-right: 0;
     margin-bottom: 1em;
   }
-}
 
-div.home > div.text > h1 {
-  font-family: "Archivo", sans-serif;
-  font-weight: 700; /* Strong, bold, but refined */
-  font-size: clamp(2rem, 6vw, 2.75rem); /* Responsive scaling */
-  letter-spacing: -0.5px; /* Slight tightening for a premium feel */
-  text-transform: uppercase; /* Optional: makes it more striking */
-  line-height: 1.1; /* Keeps it compact but readable */
-}
-
-@media screen and (max-width: $on-palm) {
   div.home > div.text > h1::after {
     content: "";
     display: block;
@@ -405,24 +422,4 @@ div.home > div.text > h1 {
     background: $gradient;
     margin-top: 8px;
   }
-}
-
-@media screen and (min-width: $on-palm) {
-  div.home > div.text > h1::after {
-    content: "";
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: $gradient;
-    margin-top: 8px;
-  }
-}
-
-div.home > div.text > p > a {
-  white-space: nowrap;
-  padding-right: 0.25em;
-}
-
-div.home > div.text > p > a > i {
-  min-width: 1em;
 }
