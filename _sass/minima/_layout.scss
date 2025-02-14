@@ -357,15 +357,23 @@ body {
   padding-top: 0;
 }
 
-div.home {
+div.wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
+div.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
 div.home > div.text {
-  flex: 1;
+  text-align: left;
 }
 
 div.home > img.img-avatar {
@@ -402,10 +410,12 @@ div.home > div.text > h1::after {
   margin-top: 8px;
 }
 
-
 @media screen and (max-width: $on-palm) {
   div.home {
     flex-direction: column;
+  }
+
+  div.home > div.text {
     text-align: center;
   }
 
