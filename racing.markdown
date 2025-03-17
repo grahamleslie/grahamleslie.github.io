@@ -30,7 +30,7 @@ title: "#88"
 
 | Time    | Car                                        | Track                                                                                        |
 | ------- | ------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| 1:51.81 | BMW M235i                                  | [Laguna Seca](https://www.youtube.com/watch?v=2CeZx0QDLy8)                                   |
+| 1:49.77 | BMW M235i                                  | [Laguna Seca](https://www.youtube.com/watch?v=4Nn7t4DlVro)                                   |
 | 2:04.08 | BMW M235i (old tires)                      | [Sonoma Raceway](https://www.youtube.com/watch?v=vqPmSHP7nEM)                                |
 | 1:31.07 | BMW M235i                                  | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
 | 2:24.45 | BMW M235i                                  | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
