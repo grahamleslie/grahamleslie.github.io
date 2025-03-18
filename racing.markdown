@@ -9,13 +9,13 @@ title: "#88"
 
 ### Autocross
 
-| Place  | Class | Car              | Event                                                                                                     |
-| ------ | ----- | ---------------- | --------------------------------------------------------------------------------------------------------- |
-| 5th/6  | FS    | 2015 BMW M235i   | [Spokes Autocross 2023 #11 at Circuit of the Americas](https://www.youtube.com/watch?v=dbq5YmRK8uc)       |
-| 4th/8  | FS    | 2015 BMW M235i   | [Spokes Autocross 2023 #1 at Circuit of the Americas](https://www.youtube.com/watch?v=lrYkOy3d5e4&t=180s) |
-| 6th/9  | STR   | 2006 Mazda Miata | [Spokes Autocross 2022 #5 at Circuit of the Americas](https://www.youtube.com/watch?v=9yHiq3Stjhk)        |
-| 3rd/47 | NSTR  | 2006 Mazda Miata | [Spokes Autocross 2022 #2 at Circuit of the Americas](https://www.youtube.com/watch?v=nsUCJz0uHlc)        |
-| 7th/25 | NSTR  | 2006 Mazda Miata | [Spokes Autocross 2022 #1 at Hutto, Texas](https://www.youtube.com/watch?v=dZJZB_vTlR8)                   |
+| Place  | Class | Car                                         | Event                                                                                                     |
+| ------ | ----- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 5th/6  | FS    | 2015 BMW M235i (Michelin Pilot Super Sport) | [Spokes Autocross 2023 #11 at Circuit of the Americas](https://www.youtube.com/watch?v=dbq5YmRK8uc)       |
+| 4th/8  | FS    | 2015 BMW M235i (Michelin Pilot Super Sport) | [Spokes Autocross 2023 #1 at Circuit of the Americas](https://www.youtube.com/watch?v=lrYkOy3d5e4&t=180s) |
+| 6th/9  | STR   | 2006 Mazda Miata (Falken Azenis RT615K+)    | [Spokes Autocross 2022 #5 at Circuit of the Americas](https://www.youtube.com/watch?v=9yHiq3Stjhk)        |
+| 3rd/47 | NSTR  | 2006 Mazda Miata (Falken Azenis RT615K+)    | [Spokes Autocross 2022 #2 at Circuit of the Americas](https://www.youtube.com/watch?v=nsUCJz0uHlc)        |
+| 7th/25 | NSTR  | 2006 Mazda Miata (Falken Azenis RT615K+)    | [Spokes Autocross 2022 #1 at Hutto, Texas](https://www.youtube.com/watch?v=dZJZB_vTlR8)                   |
 
 ### Karting
 
@@ -28,10 +28,48 @@ title: "#88"
 
 ## Personal Bests
 
-| Time    | Car                                        | Track                                                                                        |
-| ------- | ------------------------------------------ | -------------------------------------------------------------------------------------------- |
-| 1:49.77 | BMW M235i                                  | [Laguna Seca](https://www.youtube.com/watch?v=4Nn7t4DlVro)                                   |
-| 2:04.08 | BMW M235i (old tires)                      | [Sonoma Raceway](https://www.youtube.com/watch?v=vqPmSHP7nEM)                                |
-| 1:31.07 | BMW M235i                                  | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
-| 2:24.45 | BMW M235i                                  | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
-| 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
+| Time    | Car                                         | Track                                                                                        |
+| ------- | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| 1:49.77 | BMW M235i (Firehawk Indy 500)               | [Laguna Seca](https://www.youtube.com/watch?v=PtWdV5IlBi8)                                   |
+| 2:04.08 | BMW M235i (Worn Michelin Pilot Super Sport) | [Sonoma Raceway](https://www.youtube.com/watch?v=vqPmSHP7nEM)                                |
+| 1:31.07 | BMW M235i (Michelin Pilot Super Sport)      | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
+| 2:24.45 | BMW M235i (Michelin Pilot Super Sport)      | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
+| 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo  | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
+
+## Setup
+
+### 2015 BMW M235i
+
+#### Brakes
+
+- [Hawk HPS Fronts](https://amzn.to/4iq3bg6)
+- [Hawk HPS Rears](https://amzn.to/4iBoLi5)
+
+#### Powertrain
+
+- [Turner Charge Pipe Upgrade Kit](https://www.turnermotorsport.com/p-584164-n55-hot-side-cold-side-charge-pipes-complete-kit/)
+- [K&N Engine Air Filter](https://amzn.to/3J8F2Mr)
+- [Motul 660 Racing Brake Fluid](https://amzn.to/3B9dXEl)
+- [Red Line Differential Fluid](https://amzn.to/4iBdle7)
+- [Motul 8100 5W40 X-Cess Oil](https://amzn.to/3FOLcBK)
+- [ECSTuning Performance Kevlar Belt](https://www.ecstuning.com/b-ecs-parts/performance-kevlar-reinforced-belt-n55-f-chassis/8pk1390~ecs/)
+- [OEM Oil Filter](https://amzn.to/4bznWDS)
+
+#### Exhaust
+
+- [Dinan Free Flow Axle-Back Exhaust](https://amzn.to/3mBcpP9)
+
+#### Cosmetic
+
+- [Black Kidney Grilles](https://amzn.to/43REWTN)
+- [Front Splitter Lip](https://www.ebay.com/itm/334629015635?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=osuz1jvpspk&sssrc=4429486&ssuid=Cuazyua3Q8u&var=&widget_ver=artemis&media=COPY)
+- [Carbon Fiber Trunk Spoiler](https://amzn.to/3oajG9e)
+- [Aluminum Shift Paddles](https://amzn.to/3Rh4i66)
+
+### Recording
+
+- [Racebox Pro Lap Timer and Data Logger](https://amzn.to/405phef)
+- [GoPro Hero 8 Black](https://amzn.to/41bnd8N)
+- [GoPro Wind Cover](https://amzn.to/41g4HMC)
+- [GoPro Mount](https://amzn.to/4fTUOIS)
+- [GoPro Wired Pass-Through](https://amzn.to/4iCk5Z7)
