@@ -3,7 +3,7 @@ layout: page
 title: "#88"
 ---
 
-![Racing](/assets/images/racing.jpg)
+![Racing](/assets/images/racing2.jpeg)
 
 ## Competitive Results
 
