@@ -28,13 +28,13 @@ title: "#88"
 
 ## Personal Bests
 
-| Time    | Car                                        | Tire                              | Track                                                                                        |
-| ------- | ------------------------------------------ | --------------------------------- | -------------------------------------------------------------------------------------------- |
-| 1:49.77 | BMW M235i                                  | Firehawk Indy 500                 | [Laguna Seca](https://www.youtube.com/watch?v=PtWdV5IlBi8)                                   |
-| 2:04.08 | BMW M235i                                  | (Worn) Michelin Pilot Super Sport | [Sonoma Raceway](https://www.youtube.com/watch?v=vqPmSHP7nEM)                                |
-| 1:31.07 | BMW M235i                                  | Michelin Pilot Super Sport        | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
-| 2:24.45 | BMW M235i                                  | Michelin Pilot Super Sport        | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
-| 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo | --                                | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
+| Time    | Car                                        | Tire                       | Track                                                                                        |
+| ------- | ------------------------------------------ | -------------------------- | -------------------------------------------------------------------------------------------- |
+| 1:49.77 | BMW M235i                                  | Firehawk Indy 500          | [Laguna Seca](https://www.youtube.com/watch?v=PtWdV5IlBi8)                                   |
+| 2:00.76 | BMW M235i                                  | Firehawk Indy 500          | [Sonoma Raceway](https://www.youtube.com/watch?v=nAXV3pjokEE)                                |
+| 1:31.07 | BMW M235i                                  | Michelin Pilot Super Sport | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
+| 2:24.45 | BMW M235i                                  | Michelin Pilot Super Sport | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
+| 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo | --                         | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
 
 ## Setup
 
@@ -68,7 +68,7 @@ title: "#88"
 
 ### Recording
 
-- [Racebox Pro Lap Timer and Data Logger](https://amzn.to/405phef)
+- **USE CODE `GRAHAMS-CHANNEL15` FOR 15% OFF**: [Racebox Pro Lap Timer and Data Logger](https://www.racebox.pro/store/)
 - [GoPro Hero 8 Black](https://amzn.to/41bnd8N)
 - [GoPro Wind Cover](https://amzn.to/41g4HMC)
 - [GoPro Mount](https://amzn.to/4fTUOIS)
