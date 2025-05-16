@@ -79,3 +79,4 @@ title: "#88"
 - [RaceQuip PRO20 Snell 2020 Helmet](https://amzn.to/41SR5W1)
 - [RaceQuip PRO20 Dark Shield](https://www.amazon.com/dp/B004QMBFXE/ref=cm_sw_r_as_gl_api_gl_i_CZ2ZZS7D5YHX6V1Q2PC9?linkCode=ml2&tag=gleslie03-20)
 - [RaceQuip Helmet Bag](https://amzn.to/3Y1IkI7)
+- [Shinola Made in Detroit Canfield C56 Chronograph Watch](https://partners.shinola.com/grahams-channel)
