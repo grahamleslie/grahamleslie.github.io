@@ -21,12 +21,12 @@ title: Home
         rel="noopener noreferrer"
         ><i class="fab fa-linkedin"></i> LinkedIn</a
       >
-      <a
+      <!-- <a
         href="https://github.com/grahamleslie"
         target="_blank"
         rel="noopener noreferrer"
         ><i class="fab fa-github"></i> GitHub</a
-      >
+      > -->
       <a
         href="https://www.youtube.com/channel/UCKoPxUfqK_wZAXALlvbdNCA"
         target="_blank"
