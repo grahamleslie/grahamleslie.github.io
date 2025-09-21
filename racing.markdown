@@ -31,7 +31,7 @@ title: "#88"
 | Time    | Car                                        | Tire                       | Track                                                                                        |
 | ------- | ------------------------------------------ | -------------------------- | -------------------------------------------------------------------------------------------- |
 | 1:49.77 | BMW M235i                                  | Firehawk Indy 500          | [Laguna Seca](https://www.youtube.com/watch?v=PtWdV5IlBi8)                                   |
-| 2:00.76 | BMW M235i                                  | Firehawk Indy 500          | [Sonoma Raceway](https://www.youtube.com/watch?v=nAXV3pjokEE)                                |
+| 1:59.52 | BMW M235i                                  | Firehawk Indy 500          | [Sonoma Raceway](https://youtu.be/nAXV3pjokEE)                                |
 | 1:31.07 | BMW M235i                                  | Michelin Pilot Super Sport | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
 | 2:24.45 | BMW M235i                                  | Michelin Pilot Super Sport | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
 | 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo | --                         | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
