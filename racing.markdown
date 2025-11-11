@@ -30,8 +30,9 @@ title: "#88"
 
 | Time    | Car                                        | Tire                       | Track                                                                                        |
 | ------- | ------------------------------------------ | -------------------------- | -------------------------------------------------------------------------------------------- |
-| 1:49.77 | BMW M235i                                  | Firehawk Indy 500          | [Laguna Seca](https://www.youtube.com/watch?v=PtWdV5IlBi8)                                   |
-| 1:59.52 | BMW M235i                                  | Firehawk Indy 500          | [Sonoma Raceway](https://youtu.be/nAXV3pjokEE)                                |
+| 1:48.42 | BMW M235i                                  | Yokohama Advan Neova AD09s | [Laguna Seca](https://youtu.be/kMzWM2C-YnA)                                                  |
+| 1:59.52 | BMW M235i                                  | Firehawk Indy 500          | [Sonoma Raceway](https://youtu.be/nAXV3pjokEE)                                               |
+| 1:31.49 | BMW M235i                                  | Yokohama Advan Neova AD09s | [Thunderhill Raceway (West)](https://www.youtube.com/watch?v=eycrX7vf3EM)                    |
 | 1:31.07 | BMW M235i                                  | Michelin Pilot Super Sport | [Harris Hill Raceway](https://www.youtube.com/watch?v=7CT_sJ8GK_k)                           |
 | 2:24.45 | BMW M235i                                  | Michelin Pilot Super Sport | [Eagles Canyon Raceway](https://www.youtube.com/watch?v=Ojc16QPSUVg)                         |
 | 1:04.09 | Lamborghini Gallardo LP 570-4 Super Trofeo | --                         | [Las Vegas Motor Speedway Outside Short Course](https://www.youtube.com/watch?v=CP7HVlMlAlM) |
@@ -45,6 +46,10 @@ title: "#88"
 - [Hawk HPS Fronts](https://amzn.to/4iq3bg6)
 - [Hawk HPS Rears](https://amzn.to/4iBoLi5)
 
+#### Suspension
+
+- [K-MAC Stage 2 Camber Plates](https://www.ecstuning.com/b-kmac-parts/stage-2-camber-plates-street-track/192616-2n~kma/)
+
 #### Powertrain
 
 - [Turner Charge Pipe Upgrade Kit](https://www.turnermotorsport.com/p-584164-n55-hot-side-cold-side-charge-pipes-complete-kit/)
@@ -54,6 +59,7 @@ title: "#88"
 - [Motul 8100 5W40 X-Cess Oil](https://amzn.to/3FOLcBK)
 - [ECSTuning Performance Kevlar Belt](https://www.ecstuning.com/b-ecs-parts/performance-kevlar-reinforced-belt-n55-f-chassis/8pk1390~ecs/)
 - [OEM Oil Filter](https://amzn.to/4bznWDS)
+- [MMX Baffled Sump Plate](https://www.ecstuning.com/b-mmx-performance-parts/mmr-n55-baffled-sump-plate/mmr20-0501~mmr/)
 
 #### Exhaust
 
