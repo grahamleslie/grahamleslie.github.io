@@ -41,8 +41,8 @@ title: "#88"
 
 ### 2015 BMW M235i
 
-| **Brakes** | [Hawk HPS Fronts](https://amzn.to/4iq3bg6) |
-| **Brakes** | [Hawk HPS Rears](https://amzn.to/4iBoLi5) |
+| **Brakes** | [Ferodo DS2500 Fronts](https://www.fcpeuro.com/products/bmw-performance-brake-pad-set-ferodo-racing-fcp4611h) |
+| **Brakes** | [Ferodo DS2500 Rears](https://www.fcpeuro.com/products/bmw-performance-brake-pad-set-ferodo-racing-fcp4663h) |
 | **Suspension** | [K-MAC Stage 2 Camber Plates](https://www.ecstuning.com/b-kmac-parts/stage-2-camber-plates-street-track/192616-2n~kma/) |
 | **Powertrain** | [Turner Charge Pipe Upgrade Kit](https://www.turnermotorsport.com/p-584164-n55-hot-side-cold-side-charge-pipes-complete-kit/) |
 | **Powertrain** | [K&N Engine Air Filter](https://amzn.to/3J8F2Mr) |
