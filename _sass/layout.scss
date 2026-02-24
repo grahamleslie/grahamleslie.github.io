@@ -1,5 +1,27 @@
 @import "variables";
 
+// Morphing image effect
+@keyframes morphing-shift {
+  0%,
+  100% {
+    border-radius: 45% 55% 52% 48% / 48% 45% 55% 52%;
+  }
+  25% {
+    border-radius: 50% 50% 45% 55% / 55% 50% 50% 45%;
+  }
+  50% {
+    border-radius: 55% 45% 48% 52% / 52% 48% 45% 55%;
+  }
+  75% {
+    border-radius: 48% 52% 55% 45% / 45% 55% 52% 48%;
+  }
+}
+
+.img-morphing {
+  overflow: hidden;
+  animation: morphing-shift 6s ease-in-out infinite;
+}
+
 // Home page layout
 .home {
   display: grid;
@@ -24,8 +46,6 @@
 
 .home img {
   max-width: 20em;
-  border-radius: 32px;
-  overflow: hidden;
   text-align: center;
   justify-self: end;
 

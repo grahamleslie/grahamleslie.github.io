@@ -5,7 +5,7 @@ title: Home
 
 <div class="home">
   <img
-    class="img img-avatar"
+    class="img img-avatar img-morphing"
     src="/assets/images/me5.jpeg"
     alt="This is me."
   />
