@@ -10,9 +10,9 @@ title: Home
     alt="This is me."
   />
   <div class="text">
-    <h1>Graham Leslie</h1>
+    <h1 class="glow">Graham Leslie</h1>
     <p class="lead">
-      I like building things and racing things. I'm an engineering leader at Apple.
+      I like building things and racing things. I'm an engineering leader at  Apple.
     </p>
     <p>
       <a href="https://www.linkedin.com/in/grahamaleslie" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
