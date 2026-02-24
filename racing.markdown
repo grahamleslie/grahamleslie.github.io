@@ -41,48 +41,34 @@ title: "#88"
 
 ### 2015 BMW M235i
 
-#### Brakes
-
-- [Hawk HPS Fronts](https://amzn.to/4iq3bg6)
-- [Hawk HPS Rears](https://amzn.to/4iBoLi5)
-
-#### Suspension
-
-- [K-MAC Stage 2 Camber Plates](https://www.ecstuning.com/b-kmac-parts/stage-2-camber-plates-street-track/192616-2n~kma/)
-
-#### Powertrain
-
-- [Turner Charge Pipe Upgrade Kit](https://www.turnermotorsport.com/p-584164-n55-hot-side-cold-side-charge-pipes-complete-kit/)
-- [K&N Engine Air Filter](https://amzn.to/3J8F2Mr)
-- [Motul 660 Racing Brake Fluid](https://amzn.to/3B9dXEl)
-- [Red Line Differential Fluid](https://amzn.to/4iBdle7)
-- [Motul 8100 5W40 X-Cess Oil](https://amzn.to/3FOLcBK)
-- [ECSTuning Performance Kevlar Belt](https://www.ecstuning.com/b-ecs-parts/performance-kevlar-reinforced-belt-n55-f-chassis/8pk1390~ecs/)
-- [OEM Oil Filter](https://amzn.to/4bznWDS)
-- [MMX Baffled Sump Plate](https://www.ecstuning.com/b-mmx-performance-parts/mmr-n55-baffled-sump-plate/mmr20-0501~mmr/)
-
-#### Exhaust
-
-- [Dinan Free Flow Axle-Back Exhaust](https://amzn.to/3mBcpP9)
-
-#### Cosmetic
-
-- [Black Kidney Grilles](https://amzn.to/43REWTN)
-- [Front Splitter Lip](https://www.ebay.com/itm/334629015635?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=osuz1jvpspk&sssrc=4429486&ssuid=Cuazyua3Q8u&var=&widget_ver=artemis&media=COPY)
-- [Carbon Fiber Trunk Spoiler](https://amzn.to/3oajG9e)
-- [Aluminum Shift Paddles](https://amzn.to/3Rh4i66)
+| **Brakes** | [Hawk HPS Fronts](https://amzn.to/4iq3bg6) |
+| **Brakes** | [Hawk HPS Rears](https://amzn.to/4iBoLi5) |
+| **Suspension** | [K-MAC Stage 2 Camber Plates](https://www.ecstuning.com/b-kmac-parts/stage-2-camber-plates-street-track/192616-2n~kma/) |
+| **Powertrain** | [Turner Charge Pipe Upgrade Kit](https://www.turnermotorsport.com/p-584164-n55-hot-side-cold-side-charge-pipes-complete-kit/) |
+| **Powertrain** | [K&N Engine Air Filter](https://amzn.to/3J8F2Mr) |
+| **Powertrain** | [Motul 660 Racing Brake Fluid](https://amzn.to/3B9dXEl) |
+| **Powertrain** | [Red Line Differential Fluid](https://amzn.to/4iBdle7) |
+| **Powertrain** | [Motul 8100 5W40 X-Cess Oil](https://amzn.to/3FOLcBK) |
+| **Powertrain** | [ECSTuning Performance Kevlar Belt](https://www.ecstuning.com/b-ecs-parts/performance-kevlar-reinforced-belt-n55-f-chassis/8pk1390~ecs/) |
+| **Powertrain** | [OEM Oil Filter](https://amzn.to/4bznWDS) |
+| **Powertrain** | [MMX Baffled Sump Plate](https://www.ecstuning.com/b-mmx-performance-parts/mmr-n55-baffled-sump-plate/mmr20-0501~mmr/) |
+| **Exhaust** | [Dinan Free Flow Axle-Back Exhaust](https://amzn.to/3mBcpP9) |
+| **Cosmetic** | [Black Kidney Grilles](https://amzn.to/43REWTN) |
+| **Cosmetic** | [Front Splitter Lip](https://www.ebay.com/itm/334629015635?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=osuz1jvpspk&sssrc=4429486&ssuid=Cuazyua3Q8u&var=&widget_ver=artemis&media=COPY) |
+| **Cosmetic** | [Carbon Fiber Trunk Spoiler](https://amzn.to/3oajG9e) |
+| **Cosmetic** | [Aluminum Shift Paddles](https://amzn.to/3Rh4i66) |
 
 ### Recording
 
-- **USE CODE `GRAHAMS-CHANNEL15` FOR 15% OFF**: [Racebox Pro Lap Timer and Data Logger](https://www.racebox.pro/store/)
-- [GoPro Hero 8 Black](https://amzn.to/41bnd8N)
-- [GoPro Wind Cover](https://amzn.to/41g4HMC)
-- [GoPro Mount](https://amzn.to/4fTUOIS)
-- [GoPro Wired Pass-Through](https://amzn.to/4iCk5Z7)
+| **Logger** | **USE CODE `GRAHAMS-CHANNEL15` FOR 15% OFF**: [Racebox Pro Lap Timer and Data Logger](https://www.racebox.pro/store/) |
+| **Camera** | [GoPro Hero 8 Black](https://amzn.to/41bnd8N) |
+| **Camera** | [GoPro Wind Cover](https://amzn.to/41g4HMC) |
+| **Camera** | [GoPro Mount](https://amzn.to/4fTUOIS) |
+| **Camera** | [GoPro Wired Pass-Through](https://amzn.to/4iCk5Z7) |
 
 ### Personal
 
-- [RaceQuip PRO20 Snell 2020 Helmet](https://amzn.to/41SR5W1)
-- [RaceQuip PRO20 Dark Shield](https://www.amazon.com/dp/B004QMBFXE/ref=cm_sw_r_as_gl_api_gl_i_CZ2ZZS7D5YHX6V1Q2PC9?linkCode=ml2&tag=gleslie03-20)
-- [RaceQuip Helmet Bag](https://amzn.to/3Y1IkI7)
-- [Shinola Made in Detroit Canfield C56 Chronograph Watch](https://partners.shinola.com/grahams-channel)
+| **Safety** | [RaceQuip PRO20 Snell 2020 Helmet](https://amzn.to/41SR5W1) |
+| **Safety** | [RaceQuip PRO20 Dark Shield](https://www.amazon.com/dp/B004QMBFXE/ref=cm_sw_r_as_gl_api_gl_i_CZ2ZZS7D5YHX6V1Q2PC9?linkCode=ml2&tag=gleslie03-20) |
+| **Safety** | [RaceQuip Helmet Bag](https://amzn.to/3Y1IkI7) |
+| **Accessories** | [Shinola Made in Detroit Canfield C56 Chronograph Watch](https://partners.shinola.com/grahams-channel) |
