@@ -22,6 +22,10 @@
   animation: morphing-shift 6s ease-in-out infinite;
 }
 
+img {
+  @extend .img-morphing;
+}
+
 // Home page layout
 .home {
   display: grid;
