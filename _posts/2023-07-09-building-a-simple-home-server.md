@@ -8,8 +8,6 @@ duration: "5 minutes"
 
 Not long ago, my home server I set up in 2020 died. It was time to rebuild it, but (much) better. Here's what I did:
 
-![The rackmount home server](/assets/images/posts/rack-mount-home-server.jpg)
-
 ## Hardware
 
 I used the same hardware I had been using previously: an old Thinkstation S30 workstation. This time, I stripped it out of the factory case and reinstalled it in a [compact rackmount 3U server chassis](https://amzn.to/3pKIqWz). This setup has two [Seagate IronWolf 4TB NAS disks](https://amzn.to/44F2Cbt) set up with software RAID 1 for redundancy and an SSD for the operating system.

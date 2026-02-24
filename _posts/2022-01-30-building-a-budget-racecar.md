@@ -18,7 +18,7 @@ I put this post together to prove that it's possible to build a track-ready race
 
 As a matter of politeness, I won't share numbers. A reasonable budget is unique to everyone--you can figure out yours on your own.
 
-![The Miata on track.](/assets/images/posts/2022-01-30/miata-on-track.jpg)
+![The Miata on track.](/assets/images/posts/miata-on-track.jpg)
 
 _On track at Driveway Austin._
 
@@ -56,7 +56,7 @@ Near the end of the month, I found my answer. A 2006 Mazda MX-5 Miata in Bryan, 
 
 The car was in great mechanical condition. It had only 36 or 37 thousand miles on the odometer, a leisurely weekend roadster. An automatic with paddle-shifters. The outside was a bit beat up: a large dent ran down the passenger side door culminating in a big paint chip, the headlights were opaque yellow, the horn didn't work, the badges were missing, and the side mirrors didn't match. I learned the car had a rebuilt-salvage title--as it was explained to me, the car was totaled in a spin leaving the dealer's lot in Las Vegas. The body was pretty damaged, but structurally the car was in fine shape. It was purchased, the body repaired, and repainted. As far as I could tell, the story was true. The car drove great and looked mechanically sound. After a few weeks of negotiation, I arrived on August 1st to pick it up.
 
-![The Miata on the day of pickup.](/assets/images/posts/2022-01-30/miata-first-day.jpg)
+![The Miata on the day of pickup.](/assets/images/posts/miata-first-day.jpg)
 
 _The Miata on pickup day._
 
@@ -111,27 +111,27 @@ The car handled superbly with the upgrades. The body roll was eliminated by the 
 
 Here's a couple of photos of some of the work:
 
-![The old a new sway bars.](/assets/images/posts/2022-01-30/sway-bars.jpg)
+![The old a new sway bars.](/assets/images/posts/sway-bars.jpg)
 
 _You can easily see the different in thickness between the new and old sway bar._
 
-![The new sway bar installed.](/assets/images/posts/2022-01-30/sway-bar-installed.jpg)
+![The new sway bar installed.](/assets/images/posts/sway-bar-installed.jpg)
 
 _The rear sway bar installed._
 
-![The inspection.](/assets/images/posts/2022-01-30/riley-inspection.jpg)
+![The inspection.](/assets/images/posts/riley-inspection.jpg)
 
 _Riley double-checked the brake work._
 
-![The roll bars compared.](/assets/images/posts/2022-01-30/roll-bars.jpg)
+![The roll bars compared.](/assets/images/posts/roll-bars.jpg)
 
 _You can also easily see the difference between the old roll protection and the new roll bar. I feel a lot safer with the new roll bar installed._
 
-![The roll bar installed.](/assets/images/posts/2022-01-30/roll-bar-installed.jpg)
+![The roll bar installed.](/assets/images/posts/roll-bar-installed.jpg)
 
 _The new roll bar installed._
 
-![The finished product.](/assets/images/posts/2022-01-30/miata-done.jpg)
+![The finished product.](/assets/images/posts/miata-done.jpg)
 
 _The finished product._
 
@@ -141,6 +141,6 @@ This year I'll be competing in a regional autocross championship and I've booked
 
 The Miata is slow on the straights, sure, but the racing happens in the turns. It's quick through the corners, easy to drive, cheap to maintain, and a lot of fun.
 
-![88.](/assets/images/posts/2022-01-30/miata-88.jpg)
+![88.](/assets/images/posts/miata-88.jpg)
 
 _Number 88._
