@@ -54,7 +54,7 @@ img {
   justify-self: end;
 
   @media (max-width: 768px) {
-    justify-self: end;
+    justify-self: center;
   }
 }
 
@@ -63,6 +63,7 @@ img {
 
   @media (max-width: 768px) {
     margin: 0;
+    text-align: center;
   }
 }
 
