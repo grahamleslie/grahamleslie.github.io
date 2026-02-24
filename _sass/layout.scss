@@ -1,0 +1,199 @@
+@import "variables";
+
+// Home page layout
+.home {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: $spacing-3xl;
+  align-items: center;
+  justify-items: start;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: $spacing-3xl;
+  width: 100%;
+  box-sizing: border-box;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: $spacing-2xl;
+    min-height: auto;
+    padding: $spacing-2xl;
+  }
+}
+
+.home img {
+  max-width: 20em;
+  border-radius: 32px;
+  overflow: hidden;
+  text-align: center;
+  justify-self: end;
+
+  @media (max-width: 768px) {
+    justify-self: end;
+  }
+}
+
+.home > div {
+  margin: $spacing-2xl;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
+}
+
+.home h1 {
+  font-size: 3rem;
+  font-weight: $font-weight-semibold;
+  margin-bottom: $spacing-lg;
+  letter-spacing: -1px;
+
+  @media (max-width: 768px) {
+    font-size: 2rem;
+  }
+}
+
+.home .lead {
+  font-size: $font-size-large;
+  font-weight: $font-weight-regular;
+  margin-bottom: $spacing-xl;
+  line-height: $line-height-base;
+  color: $light-text;
+
+  @media (prefers-color-scheme: dark) {
+    color: $dark-text;
+  }
+}
+
+.home p a {
+  display: inline-block;
+  margin-right: $spacing-lg;
+  margin-bottom: $spacing-md;
+  transition: opacity $transition-quick;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  i {
+    margin-right: $spacing-sm;
+  }
+}
+
+// Site header
+.site-header {
+  background-color: $light-bg;
+  // border-bottom: 1px solid $light-border;
+  // padding: $spacing-lg $spacing-2xl;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: all $transition-smooth;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: $dark-bg;
+    border-bottom-color: $dark-border;
+  }
+}
+
+.site-title {
+  font-size: $font-size-large;
+  font-weight: $font-weight-semibold;
+  text-decoration: none;
+  color: $light-text;
+
+  @media (prefers-color-scheme: dark) {
+    color: $dark-text;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+// Site nav
+
+nav > a {
+  padding-left: $spacing-sm;
+}
+
+// Wrapper for page content
+.wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: $spacing-3xl $spacing-2xl;
+
+  @media (max-width: 768px) {
+    padding: $spacing-2xl $spacing-lg;
+  }
+}
+
+// Page content
+.page-content {
+  width: 100%;
+}
+
+// Post and article styling
+.post {
+  margin-bottom: $spacing-3xl;
+}
+
+.post-header {
+  margin-top: $spacing-lg;
+  margin-bottom: $spacing-2xl;
+}
+
+.post-title {
+  font-size: 2.25rem;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+  margin: 0 0 $spacing-md 0;
+
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+  }
+}
+
+.post-meta {
+  font-size: $font-size-small;
+  color: $light-text-secondary;
+
+  @media (prefers-color-scheme: dark) {
+    color: $dark-text-secondary;
+  }
+
+  time {
+    display: inline;
+  }
+}
+
+.post-content {
+  line-height: $line-height-base;
+
+  h2 {
+    margin-top: $spacing-2xl;
+  }
+
+  h3 {
+    margin-top: $spacing-xl;
+  }
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  p,
+  ul,
+  ol {
+    margin-bottom: $spacing-lg;
+  }
+
+  img {
+    max-width: 100%;
+    margin: $spacing-xl 0;
+    border-radius: 8px;
+  }
+}

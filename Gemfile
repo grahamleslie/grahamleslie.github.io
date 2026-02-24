@@ -10,3 +10,4 @@ end
 
 gem 'jekyll-sitemap'
 gem 'rubocop'
+gem 'github-pages'
