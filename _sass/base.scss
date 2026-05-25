@@ -1,14 +1,9 @@
 @import "variables";
 
-// Root styles
-:root {
-  color-scheme: light dark;
-}
-
 // Base styles
 html,
 body {
-  font-family: $font-stack;
+  font-family: $body-font-stack;
   font-size: $font-size-base;
   line-height: $line-height-base;
   -webkit-font-smoothing: antialiased;
@@ -18,8 +13,8 @@ body {
 }
 
 body {
-  background-color: $light-bg;
-  color: $light-text;
+  background-color: $bg-color;
+  color: $text-color;
   transition: background-color $transition-smooth, color $transition-smooth;
   padding-left: $spacing-3xl;
   padding-right: $spacing-3xl;
@@ -32,13 +27,6 @@ body {
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: $dark-bg;
-    color: $dark-text;
-  }
-}
-
 // Headings
 h1,
 h2,
@@ -46,6 +34,8 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: $header-font-stack;
+  color: $text-secondary;
   font-weight: $font-weight-semibold;
   line-height: $line-height-tight;
   margin: $spacing-xl 0 $spacing-md 0;
@@ -94,7 +84,8 @@ a {
   transition: text-decoration $transition-quick;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    opacity: 0.7;
   }
 
   &:visited {
@@ -104,34 +95,11 @@ a {
 
 // Code
 code {
-  font-family: "Menlo", "Monaco", "Courier New", monospace;
+  font-family: $code-font-stack;
   font-size: 0.9em;
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 2px 6px;
   border-radius: 4px;
-
-  @media (prefers-color-scheme: dark) {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-}
-
-pre {
-  overflow-x: auto;
-  padding: $spacing-lg;
-  background-color: #f5f5f7;
-  border-radius: 8px;
-  margin: $spacing-lg 0;
-
-  @media (prefers-color-scheme: dark) {
-    background-color: #1d1d1f;
-  }
-
-  code {
-    background-color: transparent;
-    padding: 0;
-    border-radius: 0;
-    color: inherit;
-  }
 }
 
 // Lists
@@ -147,27 +115,18 @@ li {
 
 // Blockquotes
 blockquote {
-  border-left: 3px solid $light-border;
+  border-left: 3px solid $border-color;
   margin: $spacing-lg 0;
   padding-left: $spacing-lg;
-  color: $light-text-secondary;
+  color: $text-secondary;
   font-style: italic;
-
-  @media (prefers-color-scheme: dark) {
-    border-left-color: $dark-border;
-    color: $dark-text-secondary;
-  }
 }
 
 // Horizontal rule
 hr {
   margin: $spacing-2xl 0;
   border: none;
-  border-top: 1px solid $light-border;
-
-  @media (prefers-color-scheme: dark) {
-    border-top-color: $dark-border;
-  }
+  border-top: 1px solid $border-color;
 }
 
 // Buttons
@@ -175,55 +134,41 @@ button,
 a.button {
   display: inline-block;
   padding: $spacing-sm $spacing-lg;
-  background-color: $light-accent;
-  color: white;
+  background-color: $accent-color;
+  color: $accent-color;
   border: none;
   border-radius: 8px;
-  font-family: $font-stack;
   font-size: $font-size-base;
   font-weight: $font-weight-medium;
   cursor: pointer;
   transition: background-color $transition-quick;
   text-decoration: none;
-
-  &:hover {
-    background-color: $light-accent-hover;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    background-color: $dark-accent;
-
-    &:hover {
-      background-color: $dark-accent-hover;
-    }
-  }
 }
 
 // Form elements
 input,
 textarea,
 select {
-  font-family: $font-stack;
   font-size: $font-size-base;
   padding: $spacing-sm $spacing-md;
-  border: 1px solid $light-border;
+  border: 1px solid $border-color;
   border-radius: 6px;
-  background-color: $light-bg;
-  color: $light-text;
+  background-color: $bg-color;
+  color: $text-color;
   transition: border-color $transition-quick;
 
   &:focus {
     outline: none;
-    border-color: $light-accent;
+    border-color: $accent-color;
   }
 
   @media (prefers-color-scheme: dark) {
     background-color: #1d1d1f;
-    border-color: $dark-border;
-    color: $dark-text;
+    border-color: $border-color;
+    color: $text-color;
 
     &:focus {
-      border-color: $dark-accent;
+      border-color: $accent-color;
     }
   }
 }
@@ -235,34 +180,34 @@ img {
   display: block;
 }
 
-// Gradient text animation
-@keyframes glow-shift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+// // Gradient text animation
+// @keyframes glow-shift {
+//   0% {
+//     background-position: 0% 50%;
+//   }
+//   50% {
+//     background-position: 100% 50%;
+//   }
+//   100% {
+//     background-position: 0% 50%;
+//   }
+// }
 
-.glow {
-  background: linear-gradient(
-    90deg,
-    #3a6ea5,
-    #a85d9b,
-    #f4c542,
-    #e57a44,
-    #3a6ea5
-  );
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  animation: glow-shift 3s ease-in-out infinite;
-}
+// .glow {
+//   background: linear-gradient(
+//     90deg,
+//     #3a6ea5,
+//     #a85d9b,
+//     #f4c542,
+//     #e57a44,
+//     #3a6ea5
+//   );
+//   background-size: 200% auto;
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+//   background-clip: text;
+//   animation: glow-shift 3s ease-in-out infinite;
+// }
 
 // Tables
 table {
@@ -275,18 +220,10 @@ th,
 td {
   padding: $spacing-md;
   text-align: left;
-  border-bottom: 1px solid $light-border;
-
-  @media (prefers-color-scheme: dark) {
-    border-bottom-color: $dark-border;
-  }
+  border-bottom: 1px solid $border-color;
 }
 
 th {
   font-weight: $font-weight-semibold;
   background-color: rgba(0, 0, 0, 0.02);
-
-  @media (prefers-color-scheme: dark) {
-    background-color: rgba(255, 255, 255, 0.05);
-  }
 }

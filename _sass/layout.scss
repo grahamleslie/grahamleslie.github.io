@@ -72,6 +72,8 @@ img {
   font-weight: $font-weight-semibold;
   margin-bottom: $spacing-lg;
   letter-spacing: -1px;
+  color: $accent-color;
+  text-shadow: 2px 2px 4px #000000;
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -83,11 +85,6 @@ img {
   font-weight: $font-weight-regular;
   margin-bottom: $spacing-xl;
   line-height: $line-height-base;
-  color: $light-text;
-
-  @media (prefers-color-scheme: dark) {
-    color: $dark-text;
-  }
 }
 
 .home p a {
@@ -95,10 +92,7 @@ img {
   margin-right: $spacing-lg;
   margin-bottom: $spacing-md;
   transition: opacity $transition-quick;
-
-  &:hover {
-    opacity: 0.7;
-  }
+  color: $text-secondary;
 
   i {
     margin-right: $spacing-sm;
@@ -107,9 +101,6 @@ img {
 
 // Site header
 .site-header {
-  background-color: $light-bg;
-  // border-bottom: 1px solid $light-border;
-  // padding: $spacing-lg $spacing-2xl;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -117,26 +108,14 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  @media (prefers-color-scheme: dark) {
-    background-color: $dark-bg;
-    border-bottom-color: $dark-border;
-  }
+  color: $accent-color;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 .site-title {
   font-size: $font-size-large;
   font-weight: $font-weight-semibold;
   text-decoration: none;
-  color: $light-text;
-
-  @media (prefers-color-scheme: dark) {
-    color: $dark-text;
-  }
-
-  &:hover {
-    opacity: 0.7;
-  }
 }
 
 // Site nav
@@ -184,11 +163,6 @@ nav > a {
 
 .post-meta {
   font-size: $font-size-small;
-  color: $light-text-secondary;
-
-  @media (prefers-color-scheme: dark) {
-    color: $dark-text-secondary;
-  }
 
   time {
     display: inline;
