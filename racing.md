@@ -3,7 +3,7 @@ layout: page
 title: "#88"
 ---
 
-<img src="/assets/images/racing3.jpeg" alt="Track day at Laguna Seca." />
+<img src="/assets/images/racing.jpg" alt="Track day at Laguna Seca." />
 
 ## Competitive Results
 

@@ -2,14 +2,10 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  {%- seo -%} <link rel="stylesheet" href="{{ "/assets/css/style.css" |
-  relative_url }}?v={{ site.github.build_revision }}"> {%- feed_meta -%} {%- if
-  jekyll.environment == 'production' -%} {%- endif -%} {%- include
-  custom-head.html -%}
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet"
-  />
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}?v={{ site.github.build_revision }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' -%}
+  {%- endif -%}
+  {%- include custom-head.html -%}
 </head>
