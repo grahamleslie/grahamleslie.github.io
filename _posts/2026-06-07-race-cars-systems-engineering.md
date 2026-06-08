@@ -4,7 +4,7 @@ title: "How Race Cars and Systems Engineering are Similar"
 date: 2026-06-07 17:05:00 -0500
 categories: race cars systems engineering
 duration: "5 minutes"
-published: false
+published: true
 ---
 
 I've caught myself saying, "I think I like working on cars as much as I like racing them." Reflecting on that, I've started to draw a parallel between my hobby and the systems engineering work I do in my day job.
