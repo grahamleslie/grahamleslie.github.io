@@ -20,6 +20,7 @@
 .img-morphing {
   overflow: hidden;
   animation: morphing-shift 6s ease-in-out infinite;
+  filter: sepia(0.2) contrast(0.9) brightness(0.9) saturate(0.85);
 }
 
 img {
@@ -168,7 +169,26 @@ nav > a {
 }
 
 .post-meta {
-  font-size: $font-size-small;
+  font-family: $code-font-stack;
+  font-size: $font-size-xs;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $accent-color;
+  margin-bottom: $spacing-md;
+  display: flex;
+  gap: $spacing-lg;
+  opacity: 0.8;
+
+  span {
+    &::before {
+      content: "[";
+      margin-right: 2px;
+    }
+    &::after {
+      content: "]";
+      margin-left: 2px;
+    }
+  }
 
   time {
     display: inline;
