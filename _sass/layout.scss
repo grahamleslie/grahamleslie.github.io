@@ -73,7 +73,6 @@ img {
   margin-bottom: $spacing-lg;
   letter-spacing: -1px;
   color: $accent-color;
-  text-shadow: 2px 2px 4px #000000;
 
   @media (max-width: 768px) {
     font-size: 2rem;
@@ -109,7 +108,6 @@ img {
   justify-content: space-between;
   align-items: center;
   color: $accent-color;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 .site-title {
