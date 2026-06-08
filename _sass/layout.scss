@@ -1,26 +1,27 @@
 @import "variables";
 
-// Morphing image effect
-@keyframes morphing-shift {
-  0%,
-  100% {
-    border-radius: 45% 55% 52% 48% / 48% 45% 55% 52%;
+// Organic "Terroir" Tide Effect
+@keyframes tide-shift {
+  0%, 100% {
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   }
-  25% {
-    border-radius: 50% 50% 45% 55% / 55% 50% 50% 45%;
+  33% {
+    border-radius: 52% 48% 33% 67% / 57% 51% 49% 43%;
   }
-  50% {
-    border-radius: 55% 45% 48% 52% / 52% 48% 45% 55%;
-  }
-  75% {
-    border-radius: 48% 52% 55% 45% / 45% 55% 52% 48%;
+  66% {
+    border-radius: 44% 56% 51% 49% / 32% 67% 33% 68%;
   }
 }
 
 .img-morphing {
   overflow: hidden;
-  animation: morphing-shift 6s ease-in-out infinite;
+  animation: tide-shift 12s ease-in-out infinite alternate;
   filter: sepia(0.2) contrast(0.9) brightness(0.9) saturate(0.85);
+  transition: transform $transition-smooth;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 }
 
 img {
