@@ -13,15 +13,7 @@ layout: default
       {{ page.title | escape }}
     </h1>
     <p class="post-meta">
-      <span>
-        <time
-          class="dt-published"
-          datetime="{{ page.date | date_to_xmlschema }}"
-          itemprop="datePublished"
-        >
-          {{ page.date | date: "%Y.%m.%d" }}
-        </time>
-      </span>
+      <span>{{ page.date | date: "%Y.%m.%d" }}</span>
       {%- if page.duration -%}
       <span>{{ page.duration | upcase }}</span>
       {%- endif -%}
