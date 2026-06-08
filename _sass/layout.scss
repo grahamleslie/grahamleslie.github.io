@@ -124,6 +124,14 @@ nav > a {
   padding-left: $spacing-sm;
 }
 
+.post-link {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
 // Wrapper for page content
 .wrapper {
   max-width: 700px;
