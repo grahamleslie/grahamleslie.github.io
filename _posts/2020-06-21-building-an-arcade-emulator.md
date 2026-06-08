@@ -6,45 +6,46 @@ categories: arcade emulator retropi
 duration: "4 minutes"
 ---
 
-A coworker at a previous job built an arcade emulator. He used a CNC machine to cut the cabinet, then dropped in an old monitor for display, a Raspberry Pi for emulation, and a set of joysticks and buttons he'd found on Amazon. It was a pretty neat setup that inspired me to put mine together.
+A coworker once built an arcade emulator from scratch. He used a CNC machine to cut the cabinet, dropped in an old monitor, and wired up a pair of joysticks he’d found on Amazon. It was a neat setup, but I wanted something a bit more compact and console-focused.
 
-Instead of the old-school arcade cabinet feel, I decided to build something a little more modern, so I threw together a compact cabinet with scrap wood, I setup an Intel NUC with emulators for the consoles I grew up with, and plugged in a pair of SNES-style controllers. It's a fun setup for playing old games from SEGA Genesis, N64, GameCube, etc.
-
-You can use whatever you want as the box to run the emulators; a Raspberry Pi works fine for arcade emulators, but you'll need something more powerful for more recent console emulators.
+Instead of the old-school stand-up cabinet, I built a desktop unit using scrap wood and an Intel NUC. I set it up to emulate the consoles I grew up with—SEGA Genesis, N64, GameCube—and paired it with a set of SNES-style controllers. It’s a fun, low-profile way to revisit the classics.
 
 ![The arcade cabinet in use.](/assets/images/posts/arcade-cabinet.jpg)
 
-(I cleaned up the fit after taking these photos, FYI).
+<small>I cleaned up the finish after taking these photos, FYI.</small>
 
-BOM (~\$50 if you have the computer/Pi and building materials lying around):
+### BOM (~$50, assuming you have the PC and scrap wood)
 
-- <a href="https://amzn.to/310QX9e" target="_blank">Intel NUC (just an example, specs are up to you depending on the emulators you run)</a>.
-- Some scrap wood for building the cabinet. I used all cheap 1" common board.
-- Stain or paint for the cabinet.
-- Wood glue, screws/nails for the cabinet.
-- <a href="https://amzn.to/3dppOiG" target="_blank">Controllers (~\$14)</a>.
-- <a href="https://amzn.to/2YThenj" target="_blank">USB Extension Cords (~\$12)</a> (for some extra controller distance).
-- <a href="https://amzn.to/3fLkjwt" target="_blank">LED Strip (~\$16)</a> (obviously really important).
-- Slim PC speakers to hide in the cabinet for audio (I used some 2000s passive speakers we probably all have in a box somewhere).
-- An old monitor. It would have been super cool to use a CRT monitor, but I had a LCD monitor lying around.
+- **The Brain:** Intel NUC (any old PC or Raspberry Pi will work, depending on the emulators you intend to run).
+- **The Case:** Scrap 1" common board board and some wood glue.
+- **The Control:** [SNES-style Controllers](https://amzn.to/3dppOiG) and [USB Extension Cords](https://amzn.to/2YThenj).
+- **The Flare:** [LED Strip](https://amzn.to/3fLkjwt) (the most important part).
+- **The Rest:** Finish (stain/paint), slim PC speakers, and an old LCD monitor.
 
-> <small>FYI: If you buy something through an Amazon link, I may earn a commission.</small>
+<small>FYI: If you buy something through an Amazon link, I may earn a commission.</small>
 
-First, build the cabinet around your monitor. I built a small shelf for it to sit on, and secured it with another shelf that will hold the NUC. I also used some caulking around the monitor to make sure no light shines through. I also left a gap at the bottom for storing the controllers.
+### The Build
+
+First, I framed the cabinet around the monitor. I built a small shelf for the screen to sit on and a second shelf above it to house the NUC. To keep it looking clean, I used some black caulking around the monitor bezel to prevent any backlight from bleeding through the gaps. I also left a small cavity at the bottom for controller storage.
 
 ![The arcade cabinet with the monitor shelf.](/assets/images/posts/arcade-cabinet-shelf.jpg)
 
-Here's a view from the front with the monitor installed.
-
-![The arcade cabinet with the monitor installed.](/assets/images/posts/arcade-cabinet-front.jpg)
-
-Next, I stuffed in all the electronics (and adhered the LED light strip, of course). I also added a WiFi Plug so I can power it on and off through voice commands or my phone.
+Next, I stuffed the electronics in and adhered the LED strip. Pro-tip: I added a WiFi smart plug so I can toggle the whole rig on and off via voice or my phone.
 
 ![The arcade cabinet with all the electronics.](/assets/images/posts/arcade-cabinet-stuffed.jpg)
 
-Once the electronics were done, I installed Ubuntu and setup [automatic log in](https://www.maketecheasier.com/enable-automatic-login-in-ubuntu/) so I could eventually have Ubuntu boot and launch the software automatically after being powered on.
+### The Software
 
-Next, I used the [RetroPi Ubuntu docs](https://retropie.org.uk/docs/Debian/) to setup the software. Ubuntu picked up the controllers automatically, so I only had to run through some simple controller button mapping steps guided by RetroPi to get them working. I wrapped up the software setup by turning on auto-start in the configuration options.
+The rig runs Ubuntu. I configured [automatic login](https://www.maketecheasier.com/enable-automatic-login-in-ubuntu/) so the system boots directly into the UI without needing a keyboard or mouse. 
+
+From there, I followed the [RetroPie Ubuntu docs](https://retropie.org.uk/docs/Debian/) for the software stack. Ubuntu recognized the USB controllers immediately; I just had to run through the standard button mapping in RetroPie. I wrapped it up by setting RetroPie to launch at boot.
+
+Finally, I loaded up the emulators with the games of my childhood. That's it—retro gaming on modern hardware.
+
+<div style="text-align: center">
+    <img alt="The arcade cabinet in use!" src="/assets/images/posts/arcade-cabinet-animated.gif" />
+</div>
+ in the configuration options.
 
 Lastly, I setup some additional emulators and acquired some games. That's it!
 
