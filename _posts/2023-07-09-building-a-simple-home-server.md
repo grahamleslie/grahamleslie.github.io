@@ -4,6 +4,7 @@ title: "Building a Simple Rackmount Home Server with Docker Compose"
 date: 2023-07-09 17:05:00 -0500
 categories: home server docker ubuntu
 duration: "5 minutes"
+published: false
 ---
 
 Not long ago, my home server I set up in 2020 died. It was time to rebuild it, but (much) better. Here's what I did:

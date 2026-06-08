@@ -4,6 +4,7 @@ title: "Adding 2FA to Ubuntu 22.04.2 LTS"
 date: 2023-06-19 020:00:00 -0500
 categories: ubuntu 22 2fa mfa google authenticator ssh libpam-google-authenticator
 duration: "2 minutes"
+published: false
 ---
 
 It's pretty easy to add 2FA authentication to Ubuntu 22.04.2 LTS. This guide will use `libpam-google-authenticator` to require 2FA when logging in. Make sure you save your backup codes when setting it up.

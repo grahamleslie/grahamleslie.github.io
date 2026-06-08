@@ -4,6 +4,7 @@ title: "Hosting a web site (for free) with S3, CloudFront, and Cloudflare"
 date: 2020-12-19 020:30:31 -0500
 categories: web site amazon s3 cloudfront cloudflare
 duration: "3 minutes"
+published: false
 ---
 
 I host a handful of web sites for free using Amazon S3, CloudFront, and Cloudflare. This whole setup takes only a couple minutes. Here's how:
