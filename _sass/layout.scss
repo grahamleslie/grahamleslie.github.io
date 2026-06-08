@@ -172,6 +172,10 @@ nav > a {
 .post-content {
   line-height: $line-height-base;
 
+  a {
+    text-decoration: underline;
+  }
+
   h2 {
     margin-top: $spacing-2xl;
   }
