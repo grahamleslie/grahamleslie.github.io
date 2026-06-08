@@ -1,5 +1,10 @@
 @import "variables";
 
+::selection {
+  background: $bay-green;
+  color: $text-color;
+}
+
 // Base styles
 html,
 body {
@@ -53,6 +58,11 @@ h6 {
   line-height: $line-height-tight;
   margin: $spacing-xl 0 $spacing-md 0;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+
+  &::before,
+  &::after {
+    color: $nicks-cove-rust;
+  }
 
   &:first-child {
     margin-top: 0;

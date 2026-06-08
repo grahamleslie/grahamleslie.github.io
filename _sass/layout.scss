@@ -178,9 +178,10 @@ nav > a {
   margin-bottom: $spacing-md;
   display: flex;
   gap: $spacing-lg;
-  opacity: 0.8;
+  opacity: 1; // Full opacity for the color to pop
 
   span {
+    color: $nicks-cove-rust;
     &::before {
       content: "[";
       margin-right: 2px;

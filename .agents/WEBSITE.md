@@ -8,7 +8,9 @@ The design language is inspired by the rugged beauty of **Tomales Bay, CA** and 
 *   **Color Palette:** Derived from coastal California—fog, rusted iron, crushed shells, and eelgrass.
     *   **Oyster Soot (#1a1c1e):** Primary background. Deep, textured dark-mode base.
     *   **Crushed Shell (#e8e9e3):** Primary text. Off-white, soft on the eyes.
-    *   **Iron Rust (#a69b8f):** Accent color. Used for headings and highlights to evoke aged machinery.
+    *   **Iron Rust (#a69b8f):** Primary accent.
+    *   **Nick's Cove Rust (#b76e4b):** "Oxidized Hardware" accent. Used for link hovers and technical log brackets.
+    *   **Bay Green (#2d3b36):** Desaturated teal used for text selection background—mimics Tomales Bay silt.
     *   **Eel Grass (#3e4c48):** Border colors.
 *   **Vibe:** Sophisticated but weathered. High-end typography (serifs) meets dark, industrial tones.
 
