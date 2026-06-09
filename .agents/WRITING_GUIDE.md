@@ -31,6 +31,7 @@ The tone sits at the intersection of a technical manual and a conversation at a 
 
 ### Formatting & Syntax
 *   **Lists for Clarity:** Use bulleted lists for parts, steps, or software containers.
+*   **No Mid-sentence Bolding:** Avoid bolding keywords or phrases for emphasis within paragraphs (e.g., "The **Hemi** engine"). It looks like AI-generated marketing copy. Let the writing provide the emphasis.
 *   **Footnotes/Side-talk:** Use `<small>` tags or blockquotes for witty asides, "FYI" warnings, or self-deprecating commentary.
 *   **Visuals:** Reference images and videos throughout. Descriptions of images should be functional.
 
