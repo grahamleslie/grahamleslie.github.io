@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Adding 2FA to Ubuntu 22.04.2 LTS"
-date: 2023-06-19 020:00:00 -0500
+date: 2023-06-19 20:00:00 -0500
 categories: ubuntu 22 2fa mfa google authenticator ssh libpam-google-authenticator
 duration: "2 minutes"
 published: false

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building an Arcade Emulator"
-date: 2020-06-21 7:08:12 -0500
+date: 2020-06-21 07:08:12 -0500
 categories: arcade emulator retropi
 location: "Austin, TX"
 duration: "4 minutes"
