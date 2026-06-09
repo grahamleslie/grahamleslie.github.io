@@ -159,6 +159,7 @@ nav > a {
 .post-header {
   margin-top: $spacing-lg;
   margin-bottom: $spacing-2xl;
+  position: relative;
 }
 
 .post-title {
@@ -181,7 +182,18 @@ nav > a {
   margin-bottom: $spacing-md;
   display: flex;
   gap: $spacing-lg;
-  opacity: 1; // Full opacity for the color to pop
+  opacity: 1;
+
+  @media (min-width: 1100px) {
+    position: absolute;
+    left: -180px;
+    top: 8px;
+    flex-direction: column;
+    gap: $spacing-sm;
+    text-align: right;
+    width: 150px;
+    margin-bottom: 0;
+  }
 
   span {
     color: $nicks-cove-rust;
