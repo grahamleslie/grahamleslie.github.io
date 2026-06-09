@@ -37,7 +37,7 @@ My goal was specific:
 
 Before the tires even went on, I had to rethink mass. I was carrying 400 lbs of sand in the bed for winter traction and a toolkit that was a literal kitchen sink.
 
-Weight is the enemy of stop-and-go MPG because of static inertia—it takes significantly more torque to get those first few rotations. I ditched the 400 lbs of sand but kept the utility: a barebones but complete toolkit (10mm, 13mm, 15mm, and a torque wrench), recovery straps and boards, and a trailer hitch. It’s about 80% utility for 20% of the previous mass. I treat the truck like the high-speed cruiser it more often than not is.
+Weight is the enemy of stop-and-go MPG because of static inertia—it takes significantly more torque to get those first few rotations. I ditched the 400 lbs of sand but kept the utility: a barebones daily toolkit, recovery straps and boards, and a trailer hitch. It’s about 80% utility for 20% of the previous mass. I treat the truck like the high-speed cruiser it more often than not is, and when I need the traction or larger toolkit I can always add them back.
 
 ## Milestone 2: Finding the Safe 34
 
@@ -53,7 +53,7 @@ If you don't calibrate your speedometer, your ECU is getting bad data. Moving fr
 
 I used the JScan app and a bypass cable to tell the BCM the tires were exactly 34.00 inches. Instantly, the shift points smoothed out. The 8-speed Torqueflite finally knew when to hunt for 8th gear and stay in MDS (Multi-Displacement System). If the engine load stays too high because of uncalibrated shift points or excessive tire weight, the MDS won't activate—effectively locking you out of 4-cylinder mode and your 20 MPG target.
 
-<small>Note on the bypass: I deliberately did a behind-the-dash temporary bypass rather than a permanent one. I didn’t want to make the truck more susceptible to theft by making the bypassed security gateway readily available 24/7. I plug it in for maintenance/tuning and pull it for daily driving.</small>
+<small>Note on the bypass: I deliberately did a behind-the-dash temporary bypass rather than a permanent one. I didn’t want to make the truck more susceptible to theft by making the bypassed security gateway readily available 24/7. I plug it in for maintenance and pull it for daily driving.</small>
 
 ## The Result: 20.0 MPG Verified
 
