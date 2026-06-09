@@ -3,6 +3,7 @@ layout: post
 title: "How to Build a Budget Racecar"
 date: 2022-01-30 19:29:17 -0500
 categories: race car build diy auto track miata nc
+location: "Austin, TX"
 duration: "13 minutes"
 ---
 

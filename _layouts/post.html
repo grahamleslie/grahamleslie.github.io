@@ -14,6 +14,9 @@ layout: default
     </h1>
     <p class="post-meta">
       <span>{{ page.date | date: "%Y.%m.%d" }}</span>
+      {%- if page.location -%}
+      <span>{{ page.location | upcase }}</span>
+      {%- endif -%}
       {%- if page.duration -%}
       <span>{{ page.duration | upcase }}</span>
       {%- endif -%}

@@ -4,6 +4,7 @@ title: "How to Engineer a Faster Lap"
 date: 2026-06-07 17:05:00 -0500
 categories: race cars systems engineering
 duration: "5 minutes"
+location: "Sonoma, CA"
 published: true
 ---
 

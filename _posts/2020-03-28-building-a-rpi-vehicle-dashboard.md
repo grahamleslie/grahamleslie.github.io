@@ -3,6 +3,7 @@ layout: post
 title: "Building a Raspberry Pi Speedometer"
 date: 2020-03-28 18:08:17 -0500
 categories: rpi raspberry pi dashboard
+"College Station, TX"
 duration: "2 minutes"
 ---
 
