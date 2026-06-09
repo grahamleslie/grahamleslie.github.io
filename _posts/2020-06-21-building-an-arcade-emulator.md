@@ -6,7 +6,7 @@ categories: arcade emulator retropi
 duration: "4 minutes"
 ---
 
-A coworker once built an arcade emulator from scratch. He used a CNC machine to cut the cabinet, dropped in an old monitor, and wired up a pair of joysticks he’d found on Amazon. It was a neat setup, but I wanted something a bit more compact and console-focused.
+A coworker once built an arcade emulator from scratch. He used a CNC machine to cut a fantastic full-size cabinet, dropped in an old monitor, and wired up a pair of joysticks he’d found on Amazon. It was a neat setup, but I wanted something a bit more compact and console-focused.
 
 Instead of the old-school stand-up cabinet, I built a desktop unit using scrap wood and an Intel NUC. I set it up to emulate the consoles I grew up with—SEGA Genesis, N64, GameCube—and paired it with a set of SNES-style controllers. It’s a fun, low-profile way to revisit the classics.
 
