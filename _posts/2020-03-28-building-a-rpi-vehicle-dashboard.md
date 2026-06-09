@@ -3,8 +3,8 @@ layout: post
 title: "Building a Raspberry Pi Speedometer"
 date: 2020-03-28 18:08:17 -0500
 categories: rpi raspberry pi dashboard
-"College Station, TX"
 duration: "2 minutes"
+location: "College Station, TX"
 ---
 
 Back in April of last year, the speedometer failed in my '94 Explorer. Rather than hunting down a replacement cable and tearing apart the dash just to restore an old analog needle, I opted to build a digital replacement using a Raspberry Pi and GPS.
