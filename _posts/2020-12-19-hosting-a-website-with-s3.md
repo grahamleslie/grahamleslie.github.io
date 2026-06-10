@@ -3,7 +3,6 @@ layout: post
 title: "Hosting a web site (for free) with S3, CloudFront, and Cloudflare"
 date: 2020-12-19 20:30:31 -0500
 categories: web site amazon s3 cloudfront cloudflare
-duration: "3 minutes"
 published: false
 ---
 

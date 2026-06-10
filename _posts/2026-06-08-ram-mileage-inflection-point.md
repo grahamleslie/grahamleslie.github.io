@@ -3,7 +3,6 @@ layout: post
 title: "How to Engineer the Inflection Point: 20 MPG in a Lifted RAM 1500"
 date: 2026-06-08 18:30:00 -0500
 categories: technical mechanical ram truck
-duration: "4 minutes"
 location: "Point Reyes, CA"
 published: true
 ---

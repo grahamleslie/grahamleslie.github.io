@@ -4,7 +4,6 @@ title: "Building an Arcade Emulator"
 date: 2020-06-21 07:08:12 -0500
 categories: arcade emulator retropi
 location: "Austin, TX"
-duration: "4 minutes"
 ---
 
 A coworker once built an arcade emulator from scratch. He used a CNC machine to cut a fantastic full-size cabinet, dropped in an old monitor, and wired up a pair of joysticks he’d found on Amazon. It was a neat setup, but I wanted something a bit more compact and console-focused.
