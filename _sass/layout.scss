@@ -21,10 +21,7 @@
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
-
-  &:hover {
-    transform: scale(1.02);
-  }
+  pointer-events: none; // Reverted: Disable all interactions to prevent Safari iOS image popups
 }
 
 img {
