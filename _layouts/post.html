@@ -17,9 +17,14 @@ layout: default
       {%- if page.location -%}
       <span>{{ page.location | upcase }}</span>
       {%- endif -%}
-      {%- if page.duration -%}
-      <span>{{ page.duration | upcase }}</span>
-      {%- endif -%}
+      <span>
+        {% assign words = content | number_of_words %}
+        {% if words < 360 %}
+          1 MINUTE
+        {% else %}
+          {{ words | divided_by: 180 }} MINUTES
+        {% endif %}
+      </span>
     </p>
   </header>
 
