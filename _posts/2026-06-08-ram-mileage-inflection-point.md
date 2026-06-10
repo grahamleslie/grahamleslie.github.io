@@ -1,15 +1,15 @@
 ---
 layout: post
-title: "How to Engineer the Inflection Point: 20 MPG in a Lifted RAM 1500"
+title: "How to Build a Maximum Efficiency Off-Road Capable RAM 1500"
 date: 2026-06-08 18:30:00 -0500
 categories: technical mechanical ram truck
 location: "Point Reyes, CA"
 published: true
 ---
 
-It’s the classic truck trade-off: you want the 4-inch lift and off road tires for off-road performance, but you don't want the on-road fuel economy of a lead-weighted brick. My 2018 RAM 1500 (2WD) has been a work in progress for years. Bilstein 5100s, a 4" Rough Country lift, and an Eaton Truetrac rear diff. It’s built for dirt or inclement weather that it rarely sees—it usually lives on the highway at 72 mph.
+It’s the classic truck trade-off: you want the 4-inch lift and tires for off-road performance, but you don't want the on-road fuel economy of a lead-weighted brick. My 2018 RAM 1500 (2WD) has been a work in progress for years. Bilstein 5100s, a 4" Rough Country lift, and an Eaton Truetrac rear diff. It’s built for dirt or inclement weather that it rarely sees—it usually lives on the highway at 70 MPH.
 
-For the longest time, I was stuck at a crossroads. Moving from the stock 33-inch tires to a 34 or 35 usually means sacrificing precious MPG. But I wanted to find the inflection point—the maximum size with the least efficiency loss.
+For the longest time, I was stuck at a crossroads. Moving from the stock 33-inch tires to a 34 or 35 usually means sacrificing precious efficiency: most folks report an absolute ceiling of 18-19 MPG and an average around 16 - 17 MPG. But I wanted to find the inflection point—the maximum size with the least efficiency loss.
 
 After a lot of math and a little experimentation, I got it dialed in. Here is the breakdown of the physics and the build.
 
@@ -56,11 +56,13 @@ I used the JScan app and a bypass cable to tell the BCM the tires were exactly 3
 
 ## The Result: 20.0 MPG Verified
 
-| Metric           | Result                                                                      |
-| :--------------- | :-------------------------------------------------------------------------- |
-| Highway (72 mph) | 20.0 MPG                                                                    |
-| City             | 15.5 MPG                                                                    |
-| Steering Feel    | Planted (at 42 PSI Front / 40 PSI Rear)                                     |
-| So What?         | I have the capabilities I wanted without paying the California 35s gas tax. |
+| Metric           | Result   |
+| :--------------- | :------- |
+| Highway (72 mph) | 20.0 MPG |
+| City             | 15.5 MPG |
 
-FYI: If you're running a Truetrac like I am, remember that you can't run a mismatched spare on the rear axle. If you get a flat, it's the Double Swap protocol: spare goes on the front, good front tire goes to the rear. It's an afternoon of work, but it saves the diff. To handle the swap, I paired the Unijack with a dedicated [jack stand](https://amzn.to/4vFv8qX).
+If you're running a Truetrac and run larger tires like I do, remember that you can't run the stock spare on the rear axle. If you get a flat, it's the Double Swap protocol: spare goes on the front, good front tire goes to the rear. It's an afternoon of work, but it saves the diff. To handle the swap, I paired the Unijack with a dedicated [jack stand](https://amzn.to/4vFv8qX).
+
+Why not buy a new hybrid truck? Because I like money.
+
+Why not upgrade to a 4x4? Because I'm not building a rock crawler. My 2WD with the Truetrac is probably more capable than most open-diff 4x4s. Also, because I like money.
