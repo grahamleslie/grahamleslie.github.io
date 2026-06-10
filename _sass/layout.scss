@@ -21,7 +21,6 @@
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
-  pointer-events: none; // Disable all interactions including tap-to-pop
 
   &:hover {
     transform: scale(1.02);
