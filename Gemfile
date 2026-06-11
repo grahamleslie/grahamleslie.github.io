@@ -8,6 +8,8 @@ group :jekyll_plugins do
   gem 'jekyll-feed'
 end
 
+gem 'bigdecimal'
+gem 'csv'
+gem 'github-pages'
 gem 'jekyll-sitemap'
 gem 'rubocop'
-gem 'github-pages'

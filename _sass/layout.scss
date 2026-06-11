@@ -2,7 +2,8 @@
 
 // Organic "Terroir" Tide Effect
 @keyframes tide-shift {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
   }
   33% {
@@ -89,15 +90,10 @@ img {
 }
 
 .home p a {
-  display: inline-block;
+  @extend .meta;
   margin-right: $spacing-lg;
-  margin-bottom: $spacing-md;
-  transition: opacity $transition-quick;
-  color: $text-secondary;
-
-  i {
-    margin-right: $spacing-sm;
-  }
+  color: $nicks-cove-rust !important;
+  font-weight: $font-weight-semibold;
 }
 
 // Site header
@@ -109,7 +105,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: $accent-color;
+  color: $nicks-cove-rust !important;
 }
 
 .site-title {
@@ -119,7 +115,6 @@ img {
 }
 
 // Site nav
-
 nav > a {
   padding-left: $spacing-sm;
 }
@@ -170,12 +165,16 @@ nav > a {
   }
 }
 
-.post-meta {
+.meta {
   font-family: $code-font-stack;
   font-size: $font-size-xs;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: $accent-color;
+}
+
+.post-meta {
+  @extend .meta;
   margin-bottom: $spacing-md;
   display: flex;
   gap: $spacing-lg;

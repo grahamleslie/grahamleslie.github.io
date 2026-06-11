@@ -57,11 +57,12 @@ h4,
 h5,
 h6 {
   font-family: $header-font-stack;
-  color: $text-secondary;
+  color: $accent-color;
   font-weight: $font-weight-semibold;
   line-height: $line-height-tight;
   margin: $spacing-xl 0 $spacing-md 0;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8), -0.5px -0.5px 0px rgba(255, 255, 255, 0.05);
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 0.05);
 
   &::before,
   &::after {
