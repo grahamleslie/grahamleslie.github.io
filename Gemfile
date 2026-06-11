@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'bigdecimal'
+gem 'csv'
+gem 'jekyll-sitemap'
+gem 'rubocop'
 gem 'github-pages', group: :jekyll_plugins
 gem 'jekyll'
 gem 'webrick'
@@ -7,9 +11,3 @@ gem 'webrick'
 group :jekyll_plugins do
   gem 'jekyll-feed'
 end
-
-gem 'bigdecimal'
-gem 'csv'
-gem 'github-pages'
-gem 'jekyll-sitemap'
-gem 'rubocop'
