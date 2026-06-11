@@ -3,8 +3,9 @@ layout: page
 title: Posts
 ---
 
-{% assign posts = site.posts %}
+_Opinions are my own._
 
+{% assign posts = site.posts %}
 {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 {%- for post in posts -%}
 

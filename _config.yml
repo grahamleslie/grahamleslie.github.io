@@ -3,7 +3,7 @@ description: >-
   The personal website of Graham Leslie.
 baseurl: "/"
 url: "https://gleslie.com"
-
+show_excerpts: true
 plugins:
   - jekyll-feed
   - jekyll-sitemap
