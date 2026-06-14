@@ -11,11 +11,12 @@ title: "#88"
 
 | Place       | Class | Car              | Tire                       | Event                                                                                                     |
 | ----------- | ----- | ---------------- | -------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 5th (of 17) | B     | 2015 BMW M235i   | Yokohama Advan Neova AD09s | [GGC BMW CCA Autocross Event #4 at Salinas Municipal Airport](https://ggcbmw.prontolivetiming.com/B.html)  |
+| 5th (of 6)  | FS    | 2015 BMW M235i   | Michelin Pilot Super Sport | [Spokes Autocross 2023 #11 at Circuit of the Americas](https://www.youtube.com/watch?v=dbq5YmRK8uc)       |
+| 4th (of 8)  | FS    | 2015 BMW M235i   | Michelin Pilot Super Sport | [Spokes Autocross 2023 #1 at Circuit of the Americas](https://www.youtube.com/watch?v=lrYkOy3d5e4&t=180s) |
+| 6th (of 9)  | STR   | 2006 Mazda Miata | Falken Azenis RT615K+      | [Spokes Autocross 2022 #5 at Circuit of the Americas](https://www.youtube.com/watch?v=9yHiq3Stjhk)        |
 | 3rd (of 47) | NSTR  | 2006 Mazda Miata | Falken Azenis RT615K+      | [Spokes Autocross 2022 #2 at Circuit of the Americas](https://www.youtube.com/watch?v=nsUCJz0uHlc)        |
 | 7th (of 25) | NSTR  | 2006 Mazda Miata | Falken Azenis RT615K+      | [Spokes Autocross 2022 #1 at Hutto, Texas](https://www.youtube.com/watch?v=dZJZB_vTlR8)                   |
-| 4th (of 8)  | FS    | 2015 BMW M235i   | Michelin Pilot Super Sport | [Spokes Autocross 2023 #1 at Circuit of the Americas](https://www.youtube.com/watch?v=lrYkOy3d5e4&t=180s) |
-| 5th (of 6)  | FS    | 2015 BMW M235i   | Michelin Pilot Super Sport | [Spokes Autocross 2023 #11 at Circuit of the Americas](https://www.youtube.com/watch?v=dbq5YmRK8uc)       |
-| 6th (of 9)  | STR   | 2006 Mazda Miata | Falken Azenis RT615K+      | [Spokes Autocross 2022 #5 at Circuit of the Americas](https://www.youtube.com/watch?v=9yHiq3Stjhk)        |
 
 ### Karting
 
