@@ -2,6 +2,7 @@
 layout: post
 title: "The Track Day Log: A Technical Guide to Tire Pressures"
 date: 2026-06-29
+location: "Monterey County, CA"
 categories: [Mechanics, Engineering]
 tags: [BMW M235i, Yokohama AD09, Sonoma Raceway, Laguna Seca, Track Day]
 ---
