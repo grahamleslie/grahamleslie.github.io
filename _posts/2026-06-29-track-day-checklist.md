@@ -1,46 +1,54 @@
 ---
 layout: post
-title: "The Pre-Flight Checklist: Engineering Out Track Day Failures"
+title: "The Logbook: Engineering the Perfect PSI"
 date: 2026-06-29
 categories: [Engineering, Mechanics]
-tags: [BMW M235i, Autocross, Systems Engineering, Maintenance]
+tags: [BMW M235i, Yokohama AD09, Sonoma Raceway, Laguna Seca]
 ---
 
-In systems engineering, we don’t hope for uptime; we architect for it. We use health checks, circuit breakers, and rigorous observablity. Yet, I see seasoned engineers show up to a track day or an AX event with little more than "enough gas" and a positive attitude. 
+In software, we have Prometheus. On the track, you have a logbook. Without it, you aren't "testing"—you're just driving.
 
-Most track day DNFs (Did Not Finish) or mechanical failures aren't the result of a catastrophic engine blow-out. They are the result of neglecting the basic state of the machine—failures that could have been caught by a simple, quantified pre-flight checklist. 
+Most amateur drivers obsess over horsepower. The professionals obsess over their contact patch. If you're running a car like the M235i with only -2 degrees of camber, your tire pressure isn't just about grip; it's about insurance. One bad heat cycle on a set of Yokohama AD09s can scrub your shoulders into oblivion if you aren't disciplined.
 
-If you're preparing for something like the GGC AX Competitive Event, you need to stop thinking like a "driver" and start thinking like a "Systems Operator."
+Here is what actual track-side observability looks like.
 
-### 1. The State of the Machine: Beyond the Visual
-A "visual inspection" is a low-fidelity health check. It doesn't tell you the torque value of a lug nut that's been through three heat cycles. 
+### The Standard Library: Yokohama AD09 Specs
+These aren't suggestions; they are the boundary conditions for the system.
 
-**The Protocol:**
-- **Quantified Torque:** Don't just "check" your lugs. Set the torque wrench to the manufacturer spec (for the M235i, that’s 103 lb-ft) and click every single one. If it moves before the click, your "system" was already degrading.
-- **Fluid Delta:** Check your oil and brake fluid levels cold, then again after your first heat cycle. We looking for the *rate of change*, not just the level. 
-- **Pressure Logic:** Cold tire pressure is a baseline, not a target. Track the delta between cold and hot pressures to understand how your alignment and driving style are taxing the rubber.
+**Autocross (The Sprint)**
+*   **Cold Ideal:** 33 Front / 31 Rear (Start high to protect shoulders on Run 1)
+*   **Hot Ideal:** 37-39 Front / 35-36 Rear
+*   **Abort Zone:** 41 PSI or 165°F
 
-### 2. Telemetry as Observability
-If you aren't logging data, you're just guessing. In software, we use Prometheus or Grafana. On the track, your telemetry stack serves the same purpose.
+**Track Day (The Marathon)**
+*   **Cold Ideal:** 30 Front / 28 Rear
+*   **Hot Ideal:** 36-37 Front / 34-35 Rear
+*   **Abort Zone:** <34 PSI (rollover risk) or >41 PSI (greasy)
+*   **Temp Limit:** 170°F
 
-I’m currently focused on capturing high-fidelity G-force and lap data. The goal isn't just to see "how fast" I went, but to identify the **performance bottlenecks**. Where is the car limited by physics, and where is it limited by my "code" (input)? 
+### The Logic of Shoulder Protection
+If you’re running limited camber (-2°), the tire wants to roll. We prevent this with two sets of rules:
+1.  **The Chalk Test:** If the scrub passes the triangle, add 2 PSI immediately.
+2.  **Thermal Throttling:** If you hit 170°F, **do not bleed air**. You’ve reached the limit of the rubber's structural integrity for this session. Pit, cool down, and re-evaluate your lines.
 
-### 3. Thermal Management: Managing Heat Soak
-Short, high-intensity sprints—like those in Autocross—are a nightmare for thermal management. The M235i is a fantastic platform, but heat soak is the silent killer of consistency.
+---
 
-Treat your cooling system like a load balancer. If the intake air temperatures (IATs) spike, the ECU will pull timing to protect the engine. That’s your performance being throttled. 
-- **Active Cooling:** Pop the hood between runs. It’s the garage equivalent of increasing airflow in a data center.
-- **Brake Recovery:** Don't set the parking brake after a hard run. You'll fuse the pads to the rotors. Let the system cool down linearly.
+### Raw Data: A Tale of Two Tracks
 
-### 4. The Analog Sensor: The Logbook
-Despite the digital tools, the most important sensor in the car is your logbook. Every run, every adjustment, and every mechanical anomaly must be recorded. 
+#### Laguna Seca (12/01/24) - The 170°F Problem
+*   **Session 4 Analysis:** Started at 27/28 Cold. Hit the target 34-36 PSI Hot after a full session. **Success? No.**
+*   **The Bottleneck:** Temps hit 170°F. The operating window for these tires is 125-150°F.
+*   **The Fix:** "Need to pit earlier, avoid scrubbing, alternate hot/cool laps." This is the mechanical equivalent of managing CPU throttling.
 
-Why? Because human memory is lossy. When you're looking back at your performance in 20 weeks, you need a durable record of why you changed the tire pressure or how the brake pedal felt on the third run. 
+#### Sonoma Raceway (09/20/25) - Chasing the Delta
+*   **Session 1:** 28/30 Cold -> 32/34 Hot (+4/+4). Ambient 60°.
+*   **Session 3:** Ambient rose to 70°. 37/37 Hot. Had to bleed -2/-2 to stay in the window.
+*   **Takeaway:** Next time, start 29/31. Give the sidewalls more initial stiffness to combat the Sonoma transitions.
 
-### The Bottom Line
-Engineering excellence isn't reserved for the keyboard. When you treat your vehicle like a mission-critical system, you stop worrying about "if" you'll finish and start focusing on "how much" you can optimize.
+### The Pragmatic Maker’s View
+This logbook is a record of failure modes and mitigations. It’s how you know that the Right-Hand Side (RHS) consistently runs 2° hotter at Laguna Seca. It's how you know when to stop "tuning" and start driving differently.
 
-See you at the grid. 
+If you don't have a scratch pad full of messy PSI deltas and thermal warnings, you isn't building a skill set—you're just burning gas.
 
 **Simple, but Significant.**
----
+
