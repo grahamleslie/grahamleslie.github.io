@@ -10,7 +10,7 @@ If I'm not keeping a logbook at the track, I'm just burning gas.
 
 Consistency in my driving usually comes down to managing variables, and the most volatile of those is tire pressure. Especially since I'm running a limited camber setup (-2°) on my M235i, the logbook is what keeps me from destroying my shoulders in a single afternoon.
 
-I've learned the hard way that tires like the Firehawk Indy 500s will lie to me with mushy sidewalls and inconsistent deltas. Moving to a 200TW tire like the Yokohama AD09 required a much more disciplined, aggressive baseline to keep the tire structural.
+I've learned the hard way that tires like the Firehawk Indy 500s will lie to me with mushy sidewalls and inconsistent deltas. After switching to a 200TW tire like the Yokohama AD09 on 9/21/25, I realized it required a much more disciplined, aggressive baseline to keep the tire structural.
 
 Here is the functional baseline I've settled on for my car, followed by the raw data from my last few sessions at Sonoma and Laguna Seca.
 
