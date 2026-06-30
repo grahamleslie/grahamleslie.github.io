@@ -1,54 +1,54 @@
 ---
 layout: post
-title: "The Logbook: Engineering the Perfect PSI"
+title: "The Logbook: A Technical Guide to Tire Pressures"
 date: 2026-06-29
-categories: [Engineering, Mechanics]
-tags: [BMW M235i, Yokohama AD09, Sonoma Raceway, Laguna Seca]
+categories: [Mechanics, Engineering]
+tags: [BMW M235i, Yokohama AD09, Sonoma Raceway, Laguna Seca, Track Day]
 ---
 
-In software, we have Prometheus. On the track, you have a logbook. Without it, you aren't "testing"—you're just driving.
+If you aren't keeping a logbook at the track, you're just burning gas. 
 
-Most amateur drivers obsess over horsepower. The professionals obsess over their contact patch. If you're running a car like the M235i with only -2 degrees of camber, your tire pressure isn't just about grip; it's about insurance. One bad heat cycle on a set of Yokohama AD09s can scrub your shoulders into oblivion if you aren't disciplined.
+Consistency in performance driving comes down to managing your variables. The most volatile of those is tire pressure. Especially if you’re running a limited camber setup (like -2° on a BMW M235i), your logbook is what keeps you from destroying a $1,200 set of Yokohama AD09s in a single afternoon.
 
-Here is what actual track-side observability looks like.
+Here is the baseline I use for Autocross and Track Days, followed by the raw data from my last few sessions at Sonoma and Laguna Seca.
 
-### The Standard Library: Yokohama AD09 Specs
-These aren't suggestions; they are the boundary conditions for the system.
+### The Baseline: Yokohama AD09 Specs
 
-**Autocross (The Sprint)**
-*   **Cold Ideal:** 33 Front / 31 Rear (Start high to protect shoulders on Run 1)
-*   **Hot Ideal:** 37-39 Front / 35-36 Rear
+#### Autocross (High Intensity, Short Duration)
+*   **Cold Start:** 33 PSI Front / 31 PSI Rear (Start high to support the sidewall for Run 1)
+*   **Hot Target:** 37-39 PSI Front / 35-36 PSI Rear
 *   **Abort Zone:** 41 PSI or 165°F
 
-**Track Day (The Marathon)**
-*   **Cold Ideal:** 30 Front / 28 Rear
-*   **Hot Ideal:** 36-37 Front / 34-35 Rear
-*   **Abort Zone:** <34 PSI (rollover risk) or >41 PSI (greasy)
-*   **Temp Limit:** 170°F
+#### Track Day (Sustained Heat)
+*   **Cold Start:** 30 PSI Front / 28 PSI Rear
+*   **Hot Target:** 36-37 PSI Front / 34-35 PSI Rear
+*   **Safety Limits:** Never let hot pressures drop below 34 PSI (rollover danger) or exceed 41 PSI (greasy). Max temp: 170°F.
 
-### The Logic of Shoulder Protection
-If you’re running limited camber (-2°), the tire wants to roll. We prevent this with two sets of rules:
-1.  **The Chalk Test:** If the scrub passes the triangle, add 2 PSI immediately.
-2.  **Thermal Throttling:** If you hit 170°F, **do not bleed air**. You’ve reached the limit of the rubber's structural integrity for this session. Pit, cool down, and re-evaluate your lines.
+### Measurement Rules
+1.  **Chalk the Shoulders:** Mark the sidewall triangle. If the scrub passes it, add 2 PSI.
+2.  **Heat Management:** If tires hit 170°F, **do not bleed air**. If you bleed air when the tire is overheated, the pressure will be too low when the tire structurally recovers. Pit and cool down instead.
+3.  **Pressure Ceiling:** If you're sliding at 40 PSI, you've reached the limit of what air pressure can fix. 
 
 ---
 
-### Raw Data: A Tale of Two Tracks
+### Track Logs: Real-World Deltas
 
-#### Laguna Seca (12/01/24) - The 170°F Problem
-*   **Session 4 Analysis:** Started at 27/28 Cold. Hit the target 34-36 PSI Hot after a full session. **Success? No.**
-*   **The Bottleneck:** Temps hit 170°F. The operating window for these tires is 125-150°F.
-*   **The Fix:** "Need to pit earlier, avoid scrubbing, alternate hot/cool laps." This is the mechanical equivalent of managing CPU throttling.
+#### Sonoma Raceway (09/20/25)
+*   **Session 1 (60° Ambient):** Start 28/30 Cold -> End 32/34 Hot (+4 change).
+*   **Session 3 (70° Ambient):** Reset to 32/34 -> Hit 37/37 Hot. Bleed -2/-2 to stay in the window.
+*   **Note:** Next time, start 29/31 to give the sidewalls more initial stiffness for the transitions.
 
-#### Sonoma Raceway (09/20/25) - Chasing the Delta
-*   **Session 1:** 28/30 Cold -> 32/34 Hot (+4/+4). Ambient 60°.
-*   **Session 3:** Ambient rose to 70°. 37/37 Hot. Had to bleed -2/-2 to stay in the window.
-*   **Takeaway:** Next time, start 29/31. Give the sidewalls more initial stiffness to combat the Sonoma transitions.
+#### Laguna Seca (12/01/24)
+*   **Session 4 (66° Ambient):** Start 27/28 Cold -> End 34-36 Hot.
+*   **Problem:** Temps hit 170°F (Target is 125-150°F).
+*   **Correction:** Avoid scrubbing in the corkscrew; alternate hot/cool laps to manage thermal load.
 
-### The Pragmatic Maker’s View
-This logbook is a record of failure modes and mitigations. It’s how you know that the Right-Hand Side (RHS) consistently runs 2° hotter at Laguna Seca. It's how you know when to stop "tuning" and start driving differently.
+#### Laguna Seca (03/16/25)
+*   **Session 1 (51° Ambient):** Start 27/30 Cold -> End 33/37 Hot (+6/+7).
+*   **Session 2 (56° Ambient):** Bleed -1/-2. High-speed right-handers are punishing the left side.
 
-If you don't have a scratch pad full of messy PSI deltas and thermal warnings, you isn't building a skill set—you're just burning gas.
+### Why This Matters
+The scratch pad doesn't have to be pretty. It just has to be accurate. When you look back at these logs before your next event, you aren't guessing at your starting pressures—you're looking at the data.
 
 **Simple, but Significant.**
 
