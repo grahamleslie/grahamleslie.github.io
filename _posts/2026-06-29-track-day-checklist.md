@@ -25,9 +25,13 @@ I don't get cute with low cold starts anymore. If I start too low, I'm scrubbing
 *   **Abort Zone:** 40 PSI
 
 ### My Ground Rules
-1.  **The Chalk Test:** I mark the sidewall triangle. If the scrub passes it, I add pressure or back off overdriving.
-2.  **Heat Management:** If I hit 170°F, **I do not bleed air**. Bleeding air on an overheated tire kills the structural support it needs as it recovers. I pit and cool down instead.
-3.  **Pressure Ceiling:** If I'm understeering at 40 PSI, I've reached the limit of what air pressure can fix for my setup.
+
+To keep the logistics predictable, I follow three specific rules of thumb that correlate the physics of air with the reality of my lap times.
+
+1.  **The 1-for-10 Rule:** Air pressure is a function of temperature. I assume a delta of **1 PSI for every 10°F** change in ambient or tire temperature. If the morning is 50°F and midday is 80°F, my tires just gained 3 PSI sitting in the paddock.
+2.  **The Chalk Test:** I mark the sidewall triangle. If the scrub passes it, I add pressure or back off overdriving. On my -2° camber M235i, I'm already at a disadvantage; if I roll onto the sidewall, I'm not just losing grip, I'm damaging the tire's structure.
+3.  **The 170°F Thermal Ceiling:** AD09s are high-performance 200TW tires, but they have a distinct operational window. While they start working at 120°F, they begin to grease over and lose structural integrity above 170°F. If I hit that ceiling, **I do not bleed air**. Bleeding air on an overheated tire reduces the carcass stiffness exactly when it needs it most. I pit and cool down instead.
+4.  **Pressure vs. Understeer:** If I'm understeering at 40 PSI, I've reached the limit of what air pressure can fix. At that point, it's a driving line issue or a mechanical grip limitation that air can't solve.
 
 ---
 
