@@ -19,7 +19,7 @@ I start higher to keep the tire from rolling over on Run 1 before I have any rea
 *   **Abort Zone:** 40 PSI
 
 #### Track Day (Managing Sustained Heat)
-I don't get cute with low cold starts anymore. If I start too low, I'm scrubbing the shoulders before I even hit the window.
+I can start lower than autocross to account for a longer session, but if I overdrive on cold tires the sidewalls will pay a real price.
 *   **Cold Start:** 33 PSI Front / 32 PSI Rear
 *   **Hot Target:** 36-37 PSI Front / 34-35 PSI Rear
 *   **Abort Zone:** 40 PSI
