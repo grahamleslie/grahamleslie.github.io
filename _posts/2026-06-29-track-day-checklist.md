@@ -8,7 +8,7 @@ tags: [BMW M235i, Yokohama AD09, Sonoma Raceway, Laguna Seca, Track Day]
 
 Consistency in my driving usually comes down to managing variables, and the most volatile of those is tire pressure. Especially since I'm running a limited camber setup (-2°) on my M235i, the logbook is what keeps me from destroying my shoulders in a single afternoon.
 
-Here is the functional baseline I've settled on for my car for my 200TW Yokohama Advan AD09s, followed by the raw data from a few sessions at Sonoma and Laguna Seca.
+Here is the functional baseline I've settled on for my car for my 200TW Yokohama Advan AD09s, followed by the raw data from a few sessions at Sonoma and Laguna Seca on my old tires.
 
 ### My Baseline: Yokohama AD09s
 
