@@ -11,7 +11,7 @@ title: "#88"
 
 | Place       | Class | Car              | Tire                       | Event                                                                                                     |
 | ----------- | ----- | ---------------- | -------------------------- | --------------------------------------------------------------------------------------------------------- |
-| 6th (of 10) | B     | 2015 BMW M235i   | Yokohama Advan Neova AD09s | GGC BMW CCA Autocross (August 29, 2026)                                                                   |
+| 6th (of 10) | B     | 2015 BMW M235i   | Yokohama Advan Neova AD09s | [GGC BMW CCA Autocross (August 29, 2026)](https://youtu.be/MRYnpR-QZ54)                                  |
 | 5th (of 17) | B     | 2015 BMW M235i   | Yokohama Advan Neova AD09s | [GGC BMW CCA Autocross 2026 #4 at Salinas Municipal Airport](https://youtu.be/MRYnpR-QZ54)  |
 | 5th (of 6)  | FS    | 2015 BMW M235i   | Michelin Pilot Super Sport | [Spokes Autocross 2023 #11 at Circuit of the Americas](https://www.youtube.com/watch?v=dbq5YmRK8uc)       |
 | 4th (of 8)  | FS    | 2015 BMW M235i   | Michelin Pilot Super Sport | [Spokes Autocross 2023 #1 at Circuit of the Americas](https://www.youtube.com/watch?v=lrYkOy3d5e4&t=180s) |
